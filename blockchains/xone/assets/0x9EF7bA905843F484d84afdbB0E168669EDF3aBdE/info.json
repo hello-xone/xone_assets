@@ -1,0 +1,11 @@
+{
+    "name": "Nebulon",
+    "website": "https://xone.org/",
+    "description": "A futuristic logo for a cryptocurrency called 'Nebulon (NBLN)",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "NBLN",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x9EF7bA905843F484d84afdbB0E168669EDF3aBdE"
+}

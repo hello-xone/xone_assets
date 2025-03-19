@@ -1,0 +1,11 @@
+{
+    "name": "NovaPulse",
+    "website": "https://xone.org/",
+    "description": "NovaPulse",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "NPX",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xe9dA4900896C7cf06617a926E80F0C5dF6632F5C"
+}

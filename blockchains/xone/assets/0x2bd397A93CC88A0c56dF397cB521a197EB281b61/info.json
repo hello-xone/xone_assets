@@ -1,0 +1,11 @@
+{
+    "name": "Quantum Forge",
+    "website": "https://xone.org/",
+    "description": "Quantum Forge",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "QFRG",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x2bd397A93CC88A0c56dF397cB521a197EB281b61"
+}

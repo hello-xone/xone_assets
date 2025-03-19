@@ -1,0 +1,11 @@
+{
+    "name": "CryoCore",
+    "website": "https://xone.org/",
+    "description": "CryoCore",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "CRC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x3CD48A78C67229DA27D62D0fDeB282Dc860a9cA9"
+}

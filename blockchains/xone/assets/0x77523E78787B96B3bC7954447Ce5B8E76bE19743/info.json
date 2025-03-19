@@ -1,0 +1,11 @@
+{
+    "name": "Merry Christmas",
+    "website": "",
+    "description": "Merry Christmas, Warriors！",
+    "explorer": "https://testnet.xscscan.com/",
+    "type": "ERC20",
+    "symbol": "MAY",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x77523E78787B96B3bC7954447Ce5B8E76bE19743"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Quantum Flux",
+    "website": "https://xone.org/",
+    "description": "Quantum Flux",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "quant",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xF958CBf6D06bfCdd52Bd678756A17a482E008966"
+}

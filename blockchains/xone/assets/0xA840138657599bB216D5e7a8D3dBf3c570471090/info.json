@@ -1,0 +1,11 @@
+{
+    "name": "Orion Byte",
+    "website": "https://xone.org/",
+    "description": "Orion Byte",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "OBT",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xA840138657599bB216D5e7a8D3dBf3c570471090"
+}

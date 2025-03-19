@@ -1,0 +1,11 @@
+{
+    "name": "Nexus API",
+    "website": "https://xone.org/",
+    "description": "Nexus API",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "NexusI",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x80c179337154f2995a19b29cD2fa29453978D964"
+}

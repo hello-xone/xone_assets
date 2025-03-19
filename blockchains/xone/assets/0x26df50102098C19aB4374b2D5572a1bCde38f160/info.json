@@ -1,0 +1,11 @@
+{
+    "name": "Huione USD",
+    "website": "https://huione.money/en/home",
+    "description": "A stablecoin pegged 1:1 to the US Dollar launched by Huione Labs under Huione Group.It aims to reduce cryptocurrency market volatility, offering users a secure, unfrozen, and reliable stablecoin.",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "USDH",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x26df50102098C19aB4374b2D5572a1bCde38f160"
+}

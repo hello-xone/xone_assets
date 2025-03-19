@@ -1,0 +1,11 @@
+{
+    "name": "Boom Woof",
+    "website": "https://xone.org/",
+    "description": "Boom Woof",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "bwoof",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xDF0C10f7d65DdCB17D258a3F88d19fA99383Aa83"
+}

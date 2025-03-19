@@ -1,0 +1,11 @@
+{
+    "name": "Yield Sync",
+    "website": "https://xone.org/",
+    "description": "Yield Sync",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "Yisc",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x4Af7CEB156754c9235EFb1CE9990305b34db1D11"
+}

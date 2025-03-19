@@ -1,0 +1,11 @@
+{
+    "name": "Xone Coin",
+    "website": "https://xone.org/",
+    "description": "Let’s Embrace The Future Together!",
+    "explorer": "https://testnet.xscscan.com/",
+    "type": "ERC20",
+    "symbol": "WXOC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x8e1a838EAfdB267542F2d04ef628f9bed7E5748B"
+}

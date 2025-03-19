@@ -1,0 +1,11 @@
+{
+    "name": "Astralis",
+    "website": "https://xone.org/",
+    "description": "Astralis",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "ats",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x3FB6EBCb91372A5E18744566544c326633758d47"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Baby doge",
+    "website": "https://xone.org/",
+    "description": "xone chain meme coin",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "babyDoge",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x225c3430e1c471F26087566F4421e12B5CeaBfDc"
+}

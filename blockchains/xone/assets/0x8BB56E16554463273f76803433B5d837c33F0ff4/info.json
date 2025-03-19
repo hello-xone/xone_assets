@@ -1,0 +1,11 @@
+{
+    "name": "Decentra Link",
+    "website": "https://xone.org/",
+    "description": "Decentra Link",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "deLink",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x8BB56E16554463273f76803433B5d837c33F0ff4"
+}

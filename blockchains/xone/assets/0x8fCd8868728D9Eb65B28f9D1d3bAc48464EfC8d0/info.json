@@ -1,0 +1,11 @@
+{
+    "name": "InfoNet",
+    "website": "https://xone.org/",
+    "description": "InfoNet",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "Int",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x8fCd8868728D9Eb65B28f9D1d3bAc48464EfC8d0"
+}

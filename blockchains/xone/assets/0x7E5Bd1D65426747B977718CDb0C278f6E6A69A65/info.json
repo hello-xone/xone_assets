@@ -1,0 +1,11 @@
+{
+    "name": "Meta Signal",
+    "website": "https://xone.org/",
+    "description": "Meta Signal",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "meta",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x7E5Bd1D65426747B977718CDb0C278f6E6A69A65"
+}
