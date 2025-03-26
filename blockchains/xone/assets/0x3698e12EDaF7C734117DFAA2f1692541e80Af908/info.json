@@ -1,0 +1,11 @@
+{
+    "name": "X-Over",
+    "website": "https://xone.org/",
+    "description": "X-Over",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "XO",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x3698e12EDaF7C734117DFAA2f1692541e80Af908"
+}

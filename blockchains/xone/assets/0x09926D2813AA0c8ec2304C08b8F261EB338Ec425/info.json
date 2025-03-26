@@ -1,0 +1,11 @@
+{
+    "name": "Syntax",
+    "website": "https://xone.org/",
+    "description": "Syntax",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "SYX",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x09926D2813AA0c8ec2304C08b8F261EB338Ec425"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Omnium",
+    "website": "https://xone.org/",
+    "description": "Omnium",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "OMN",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x2BDA065a6F488D05C9b266059A506b79897cD187"
+}
