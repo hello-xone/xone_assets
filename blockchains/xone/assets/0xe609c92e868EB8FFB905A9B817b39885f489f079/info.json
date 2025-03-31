@@ -1,0 +1,11 @@
+{
+    "name": "HyperQuantChain",
+    "website": "https://xone.org/",
+    "description": "HyperQuantChain",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "HQC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xe609c92e868EB8FFB905A9B817b39885f489f079"
+}

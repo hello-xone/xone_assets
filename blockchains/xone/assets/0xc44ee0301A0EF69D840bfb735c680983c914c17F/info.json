@@ -1,0 +1,11 @@
+{
+    "name": "HyperStarX",
+    "website": "https://xone.org/",
+    "description": "HyperStarX",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "HSTX",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xc44ee0301A0EF69D840bfb735c680983c914c17F"
+}

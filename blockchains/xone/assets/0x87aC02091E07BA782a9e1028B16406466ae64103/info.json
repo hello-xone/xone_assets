@@ -1,0 +1,11 @@
+{
+    "name": "HoloFlex",
+    "website": "https://xone.org/",
+    "description": "HoloFlex",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "holo",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x87aC02091E07BA782a9e1028B16406466ae64103"
+}

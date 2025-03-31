@@ -1,0 +1,11 @@
+{
+    "name": "Hexo",
+    "website": "https://xone.org/",
+    "description": "Hexo",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "exo",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xF8399f4474F60EEeaAEd8041a95fd8967981E62E"
+}

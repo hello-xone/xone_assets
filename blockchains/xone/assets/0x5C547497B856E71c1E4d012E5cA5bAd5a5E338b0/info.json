@@ -1,0 +1,11 @@
+{
+    "name": "HyperAI",
+    "website": "https://xone.org/",
+    "description": "HyperAI",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "Hia",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x5C547497B856E71c1E4d012E5cA5bAd5a5E338b0"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "HyperPowerLink",
+    "website": "https://xone.org/",
+    "description": "HyperPowerLink",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "hpl",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xDf97cEdeD458B4B7B3CA5dfF6dB0A78b309104e8"
+}
