@@ -1,0 +1,11 @@
+{
+    "name": "AI Brain (AIB)",
+    "website": "https://xone.org/",
+    "description": "AI Brain (AIB)",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "AIB",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x4938eF5C61f2c281321B47b41368f14F97Df280a"
+}

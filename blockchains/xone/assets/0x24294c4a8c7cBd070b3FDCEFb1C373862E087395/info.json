@@ -1,0 +1,11 @@
+{
+    "name": "HorizonX (hnx)",
+    "website": "https://xone.org/",
+    "description": "HorizonX (hnx)",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "hnx",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x24294c4a8c7cBd070b3FDCEFb1C373862E087395"
+}
