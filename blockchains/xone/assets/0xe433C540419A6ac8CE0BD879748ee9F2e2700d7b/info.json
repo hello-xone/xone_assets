@@ -1,0 +1,11 @@
+{
+    "name": "Tether USD",
+    "website": "https://xone.org/",
+    "description": "Tether USD",
+    "explorer": "https://testnet.xscscan.com/",
+    "type": "ERC20",
+    "symbol": "USDT",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xe433C540419A6ac8CE0BD879748ee9F2e2700d7b"
+}
