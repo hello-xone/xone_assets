@@ -1,0 +1,11 @@
+{
+    "name": "Ethereum",
+    "website": "https://xone.org/",
+    "description": "Ethereum",
+    "explorer": "https://testnet.xscscan.com/",
+    "type": "ERC20",
+    "symbol": "ETH",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xd8e369E15621B36Bc71c5d1654b63163eD8071BE"
+}

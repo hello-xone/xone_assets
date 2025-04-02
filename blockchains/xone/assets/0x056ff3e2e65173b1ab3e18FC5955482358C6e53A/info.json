@@ -1,0 +1,11 @@
+{
+    "name": "TRON",
+    "website": "https://xone.org/",
+    "description": "TRON",
+    "explorer": "https://testnet.xscscan.com/",
+    "type": "ERC20",
+    "symbol": "TRX",
+    "decimals": 6,
+    "status": "active",
+    "id": "0x056ff3e2e65173b1ab3e18FC5955482358C6e53A"
+}
