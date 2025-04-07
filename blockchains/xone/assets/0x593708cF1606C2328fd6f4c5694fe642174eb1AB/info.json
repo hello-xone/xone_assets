@@ -1,0 +1,11 @@
+{
+    "name": "Wrapped XOC",
+    "website": "https://xone.org/",
+    "description": "Wrapped XOC",
+    "explorer": "https://testnet.xscscan.com/",
+    "type": "ERC20",
+    "symbol": "WXOC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x593708cF1606C2328fd6f4c5694fe642174eb1AB"
+}
