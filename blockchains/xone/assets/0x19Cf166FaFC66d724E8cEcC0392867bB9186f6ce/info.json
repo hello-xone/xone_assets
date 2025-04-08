@@ -1,11 +1,11 @@
 {
-    "name": "Ethereum",
+    "name": "ETH TOKEN",
     "website": "https://ethereum.org",
-    "description": "Ethereum",
+    "description": "ETH TOKEN",
     "explorer": "https://testnet.xscscan.com/",
     "type": "ERC20",
     "symbol": "ETH",
     "decimals": 18,
     "status": "active",
-    "id": "0xd8e369E15621B36Bc71c5d1654b63163eD8071BE"
+    "id": "0x19Cf166FaFC66d724E8cEcC0392867bB9186f6ce"
 }

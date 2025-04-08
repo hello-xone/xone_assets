@@ -1,11 +1,11 @@
 {
-    "name": "BNB",
+    "name": "BNB TOKEN",
     "website": "https://www.binance.com",
-    "description": "BNB",
+    "description": "BNB TOKEN",
     "explorer": "https://testnet.xscscan.com/",
     "type": "ERC20",
     "symbol": "BNB",
     "decimals": 18,
     "status": "active",
-    "id": "0xD8e19D82166A51EeCc1459563C614C3326dFDF8b"
+    "id": "0x7ee45e3e9b01c876a6E1C741a0F983D0FD66299b"
 }
