@@ -5,7 +5,7 @@
     "explorer": "https://testnet.xscscan.com/",
     "type": "ERC20",
     "symbol": "USDT",
-    "decimals": 18,
+    "decimals": 6,
     "status": "active",
     "id": "0xdCAa74bF71DCDe6d642137c69ece895b8e2F29A2"
 }
