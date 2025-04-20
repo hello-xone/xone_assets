@@ -1,0 +1,11 @@
+{
+    "name": "Wrapped XOC",
+    "website": "https://swapx.exchange/en",
+    "description": "SwapX officially issued Xone XOC package token.",
+    "explorer": "https://xonescan.com/",
+    "type": "ERC20",
+    "symbol": "WXOC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x4eabbaBeBbb358660cA080e8F2bb09E4a911AB4E"
+}
