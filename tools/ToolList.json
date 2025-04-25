@@ -35,10 +35,46 @@
   ],
   "RPC": [
     {
-      "logo": "https://nodereal.io/favicon.ico",
-      "name": "",
-      "description": "",
-      "url": ""
+      "logo": "https://www.alchemy.com/favicon.ico",
+      "name": "Alchemy",
+      "description": "Unified blockchain API for Ethereum and EVM chains, offering enhanced RPC endpoints, WebSocket support and NFT data APIs.",
+      "url": "https://www.alchemy.com/"
+    },
+    {
+      "logo": "https://cloudflare.eth.link/favicon.ico",
+      "name": "Cloudflare Ethereum Gateway",
+      "description": "Public, no-API-key RPC endpoint for the Ethereum mainnet and testnets, backed by Cloudflare’s global network.",
+      "url": "https://cloudflare-eth.com/"
+    },
+    {
+      "logo": "https://getblock.io/favicon.ico",
+      "name": "GetBlock",
+      "description": "Instant access to 40+ blockchain nodes—Ethereum, BSC, Polygon, Avalanche, Solana and more—via a single API key.",
+      "url": "https://getblock.io/"
+    },
+    {
+      "logo": "https://www.infura.io/favicon.ico",
+      "name": "Infura",
+      "description": "High-throughput Ethereum and IPFS API service, with support for mainnet & major testnets, WebSockets and archive data.",
+      "url": "https://www.infura.io/"
+    },
+    {
+      "logo": "https://www.moralis.io/favicon.ico",
+      "name": "Moralis",
+      "description": "Web3 backend platform, providing one-stop development solutions such as real-time node services (RPC), database synchronization and event monitoring.",
+      "url": "https://moralis.io/"
+    },
+    {
+      "logo": "https://www.pokt.network/favicon.ico",
+      "name": "Pocket Network",
+      "description": "A decentralized node network that provides highly available, censorship-resistant RPC access for dApps and supports multiple public chains.",
+      "url": "https://www.pokt.network/"
+    },
+    {
+      "logo": "https://www.quicknode.com/favicon.ico",
+      "name": "QuickNode",
+      "description": "Ultra-fast globally distributed RPC node service with support for Elastic APIs, WebSockets, and advanced monitoring and debugging tools.",
+      "url": "https://www.quicknode.com/"
     }
   ],
   "Faucet": [
