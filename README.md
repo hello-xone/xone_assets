@@ -7,15 +7,13 @@ The repository is a comprehensive, up-to-date collection of information about se
 The repository contains token info from several blockchains, info on dApps, staking validators, etc.
 For every token a logo and optional additional information is available (such data is not available on-chain).
 
-Such a large collection can be maintained only through a community effort, so _feel free to add your token_.
+Such a large collection can be maintained only through a community effort, so feel free to add your token or dapp and tool.
 
-## How to Submit a Token to This Repository
-
-Follow the steps below to submit your token information to be listed:
+## Prerequisites
 
 ### 1. Fork the Repository
 
-Fork this repository: [https://github.com/hello-xone/xone_assets](https://github.com/hello-xone/xone_assets)
+Fork this repository: [https://github.com/hello-xone/xone_assets](https://github.com/hello-xone/xone_assets/fork)
 
 ### 2. Clone the Forked Repository
 
@@ -23,13 +21,17 @@ Fork this repository: [https://github.com/hello-xone/xone_assets](https://github
 git clone https://github.com/YOUR_USERNAME/xone_assets.git
 ```
 
-### 3. Navigate to the Token Directory
+## How to Submit a Token to This Repository
+
+Follow the steps below to submit your token information to be listed:
+
+### 1. Navigate to the Token Directory
 
 ```bash
 cd xone_assets/blockchains/xone/assets/
 ```
 
-### 4. Add Your Token Information
+### 2. Add Your Token Information
 
 Create a **new folder** named after your token’s **contract address** (all lowercase). Inside this folder, include the following two files:
 
@@ -39,15 +41,15 @@ Create a JSON file with the following structure:
 
 ```json
 {
-  "name": "example",                     
-  "website": "https://example.com/",     
-  "description": "example",              
-  "explorer": "https://xonecan.com/",    
-  "type": "ERC20",                       
-  "symbol": "ZRO",                       
-  "decimals": 18,                         
-  "status": "active",                    
-  "id": "0x000000000000000000000000"     
+  "name": "example",
+  "website": "https://example.com/",
+  "description": "example",
+  "explorer": "https://xonecan.com/",
+  "type": "ERC20",
+  "symbol": "ZRO",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x000000000000000000000000"
 }
 ```
 
@@ -72,15 +74,15 @@ Create a JSON file with the following structure:
 - Recommended size: **88x88 pixels**
 - File name: `logo.png`
 
-### 5. Commit and Push Your Changes
+### 3. Commit and Push Your Changes
 
 ```bash
 git add .
-git commit -m "Add {{token name}} info"
+git commit -m "Add {{token name & tool name}} info"
 git push origin main
 ```
 
-### 6. Submit a Pull Request
+### 4. Submit a Pull Request
 
 Go to your forked repository on GitHub and submit a **Pull Request** (PR) to the original repository.
 
@@ -88,10 +90,62 @@ Go to your forked repository on GitHub and submit a **Pull Request** (PR) to the
 
 After review and approval, your token will be visible in projects that support this repository.
 
+## How to Submit a Tool to This Repository
+
+### 1. Navigate to the Token Directory
+
+```bash
+cd xone_assets/blockchains/xone/tools/
+```
+
+### 2. Use your IDE to edit the `ToolList.json` file in this directory.
+
+### 3. Add tool information according to the existing tool type grouping and format.
+
+1. Locate the appropriate category array (or create a new category key if needed).
+2. Add a new JSON object with the following fields:
+   ```json
+   {
+     "logo": "https://example.com/favicon.ico",
+     "name": "YourToolName",
+     "description": "Short, clear description of the tool's purpose.",
+     "url": "https://yourtool.website/"
+   }
+   ```
+3. **Maintain alphabetical order** within the category array by the `name` field.
+4. Ensure all JSON syntax is valid (commas, brackets, quotes).
+
+### 4. Existing group types and descriptions
+
+```
+  SDK = "SDK",    // SDK 服务
+  RPC = "RPC",    // RPC 服务
+  IDE = "IDE",    // IDE
+  EXPLORER = "Explorer",    // 区块浏览器
+  FAUCET = "Faucet",    // 水龙头
+  ANALYTICS = "Analytics",    // 数据分析
+  NODE ="Node Services",    // 节点服务
+  NFT = "NFT Related",    // NFT 相关
+  DATA = "Data Processing",   // 数据处理
+  BRIDGES = "Bridges",    // 桥
+  DAO = "DAO Related",    // DAO 相关
+  QUALITY = "Code Quality",   // 代码质量
+  FRONT = "Front-End",    // 前端
+  BACK= "Back-End",   // 后端
+  FRAMEWORK = "Framework",    // 框架
+  MPC = "MPC",    // MPC
+  ORACLE = "Oracle",  // 甲骨文
+  WALLET = "Wallet",    // 钱包
+  PAYMENT = "Payment Gateway",    // 支付网关
+  AUDIT = "Security Audit",   // 安全审计
+  STORAGE = "Storage"   // 存储
+```
+
 ## Additional Information
 
 ### Please note:
-- **Brand new tokens are not accepted.**
+
+- **Brand new tokens and new tools are not accepted.**
 - Projects must be sound, with available information and **non-minimal circulation**.
 
 ### Assets App
@@ -102,6 +156,16 @@ The Assets web app can be used for most new token additions (GitHub account is n
 
 _You can also use scripts below to help with token submission and validation._
 
+## About display
+
+The token information, tools and DApps information of this repository will be displayed in the following projects because they rely on the relevant information of this repository as the display source.
+
+- [Xone official website](https://xone.org)
+- [Xone Scan](https://xonescan.com)
+- [SwapX](https://swapx.exchange/en)
+- [RainLink](https://rainlink.co/)
+- [TokenUp](https://tokenup.org/en)
+
 ## Scripts
 
 There are several scripts available for maintainers:
@@ -109,9 +173,6 @@ There are several scripts available for maintainers:
 - `make check` -- Execute validation checks; also used in continuous integration.
 - `make fix` -- Perform automatic fixes where possible
 - `make update-auto` -- Run automatic updates from external sources, executed regularly (GitHub action)
-- `make add-token asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Create `info.json` file as asset template.
-- `make add-tokenlist asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Adds a token to tokenlist.json.
-- `make add-tokenlist-extended asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Adds a token to tokenlist-extended.json.
 
 ## On Checks
 

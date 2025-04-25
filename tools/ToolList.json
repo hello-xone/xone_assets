@@ -1,0 +1,626 @@
+{
+  "Analytics": [
+    {
+      "logo": "https://liteflow.com/favicon.ico",
+      "name": "Liteflow",
+      "description": "Analyze, Launch, and Scale Web3 Projects.",
+      "url": "https://liteflow.com/"
+    },
+    {
+      "logo": "https://dune.com/favicon.ico",
+      "name": "Dune",
+      "description": "Blockchain ecosystem analytics by and for the community.",
+      "url": "https://dune.com/"
+    },
+    {
+      "logo": "https://www.footprint.network/favicon.ico",
+      "name": "Footprint Analytics",
+      "description": "Blockchain analytics.",
+      "url": "https://www.footprint.network/"
+    },
+    {
+      "logo": "https://web3go.xyz/favicon.ico",
+      "name": "Web3Go",
+      "description": "Web3Go is an all-in-one open data analytics and service platform where everyone can grasp the value behind blockchain data.",
+      "url": "https://web3go.xyz/"
+    }
+  ],
+  "Explorer": [
+    {
+      "logo": "https://xonescan.com/favicon.ico",
+      "name": "Xone Scan",
+      "description": "Xone Chain block browser, quickly view and analyze Xone related data.",
+      "url": "https://xonescan.com/"
+    }
+  ],
+  "RPC": [
+    {
+      "logo": "https://nodereal.io/favicon.ico",
+      "name": "",
+      "description": "",
+      "url": ""
+    }
+  ],
+  "Faucet": [
+    {
+      "logo": "https://faucet.xone.org/favicon.ico",
+      "name": "Xone Faucet",
+      "description": "The official testnet faucet of the Xone Chain, providing developers and users with free test tokens. With a simple and user-friendly process, you can quickly claim tokens to test smart contracts, decentralized applications, and network functionalities. Join us to explore the endless possibilities of the Xone Network!",
+      "url": "https://faucet.xone.org/en"
+    }
+  ],
+  "Node Services": [
+    {
+      "logo": "https://nodereal.io/favicon.ico",
+      "name": "NodeReal",
+      "description": "NodeReal empowers developers and investors to explore blockchain with the most reliable solutions and enables enterprises to generate business opportunities.",
+      "url": "https://nodereal.io/"
+    },
+    {
+      "logo": "https://www.ankr.com/favicon.ico",
+      "name": "Ankr",
+      "description": "Ankr provides builders with streamlined access to a global network of nodes running on 18 different blockchains.",
+      "url": "https://www.ankr.com/"
+    },
+    {
+      "logo": "https://chainstack.com/favicon.ico",
+      "name": "Chainstack",
+      "description": "From startups to large enterprises, thousands of businesses of all sizes use Chainstack’s software and APIs to build, run, and scale blockchain applications.",
+      "url": "https://chainstack.com/"
+    },
+    {
+      "logo": "https://nownodes.io/favicon.ico",
+      "name": "NowNodes",
+      "description": "Get your crypto API for instant access to 40+ blockchain networks including BTC, ETH, and BSC which is over 1000 coins and tokens.",
+      "url": "https://nownodes.io/"
+    },
+    {
+      "logo": "https://www.quicknode.com/favicon.ico",
+      "name": "QuickNode",
+      "description": "They make it simple to build blockchain applications and scale up as you grow. From elastic APIs to powerful tools and analytics, all at your command through a simple control panel.",
+      "url": "https://www.quicknode.com/"
+    },
+    {
+      "logo": "https://blockvision.org/favicon.ico",
+      "name": "BlockVision",
+      "description": "BlockVision is a one-stop development platform and on-chain data retrieval portal for developers that boasts impressively low-latencies and high availability.",
+      "url": "https://blockvision.org/"
+    },
+    {
+      "logo": "https://www.covalenthq.com/favicon.ico",
+      "name": "Covalent",
+      "description": "Covalent provides a unified API bringing visibility to billions of Web3 data points.",
+      "url": "https://www.covalenthq.com/zh/"
+    },
+    {
+      "logo": "https://infstones.com/favicon.ico",
+      "name": "InfStones",
+      "description": "InfStones' easy-to-use blockchain infrastructure.",
+      "url": "https://infstones.com/"
+    },
+    {
+      "logo": "https://developers.moralis.com/favicon.ico",
+      "name": "Moralis",
+      "description": "Moralis provides APIs, SDKs and Data for building high performance dApps. Integrate Web3 into any tech stack.",
+      "url": "https://developers.moralis.com/"
+    },
+    {
+      "logo": "https://www.bounce.finance/favicon.ico",
+      "name": "Bounce Finance",
+      "description": "NFT API and Web3 marketplace.",
+      "url": "https://www.bounce.finance/"
+    },
+    {
+      "logo": "https://www.allthatnode.com/favicon.ico",
+      "name": "All That Node",
+      "description": "All That Node is the most comprehensive multi-chain development suite, designed to support multiple networks from a single platform.",
+      "url": "https://www.allthatnode.com/"
+    }
+  ],
+  "NFT Related": [
+    {
+      "logo": "https://liteflow.com/favicon.ico",
+      "name": "Liteflow",
+      "description": "Analyze, Launch, and Scale Web3 Projects.",
+      "url": "https://liteflow.com/"
+    },
+    {
+      "logo": "https://www.nftscan.com/favicon.ico",
+      "name": "NFTScan",
+      "description": "The NFTScan API helps developers build new experiences retrieving NFTs and data analysis. We provide a set of endpoints that enable you to fetch ERC721 and ERC1155 NFT assets as well as transactions, collections, marketplace statistics and more.",
+      "url": "https://www.nftscan.com/"
+    },
+    {
+      "logo": "https://blockvision.org/favicon.ico",
+      "name": "BlockVision",
+      "description": "BlockVision synchronizes and integrates core NFT marketplace data such as OpenSea and LooksRare, just to let you save everything while developing NFT applications.",
+      "url": "https://blockvision.org/"
+    },
+    {
+      "logo": "https://www.venly.io/favicon.ico",
+      "name": "Venly",
+      "description": "Unity plugin, NFT to email, Shopify-app, NFT API, NFT analytics, NFT minter.",
+      "url": "https://www.venly.io/"
+    },
+    {
+      "logo": "https://www.rareboard.com/favicon.ico",
+      "name": "Rareboard",
+      "description": "NFT Marketplace Aggregator Mint & Trade NFTs from multiple marketplaces, at no extra cost.",
+      "url": "https://www.rareboard.com/"
+    },
+    {
+      "logo": "https://element.market/favicon.ico",
+      "name": "Element",
+      "description": "The First Community-Driven Aggregated Marketplace.",
+      "url": "https://element.market/"
+    },
+    {
+      "logo": "https://opensea.io/favicon.ico",
+      "name": "OpenSea",
+      "description": "OpenSea is the world's first and largest web3 marketplace for NFTs and crypto collectibles. Browse, create, buy, sell, and auction NFTs using OpenSea today.",
+      "url": "https://opensea.io/"
+    }
+  ],
+  "Data Processing": [
+    {
+      "logo": "https://www.parsiq.net/favicon.ico",
+      "name": "PARSIQ",
+      "description": "Raw onchain data indexing, monitoring and intelligence platform.",
+      "url": "https://www.parsiq.net/"
+    }
+  ],
+  "Bridges": [
+    {
+      "logo": "https://rainlink.co/favicon.ico",
+      "name": "RainLink",
+      "description": "RainLink Bridge | Omni-Chain Interoperability Layer: Connecting multiple blockchains, powering secure cross-chain liquidity for assets and messages.",
+      "url": "https://rainlink.co/"
+    }
+  ],
+  "DAO Related": [
+    {
+      "logo": "https://www.tally.xyz/favicon.ico",
+      "name": "Tally",
+      "description": "Tally is a DAO operations platform.",
+      "url": "https://www.tally.xyz/"
+    },
+    {
+      "logo": "https://collab.land/favicon.ico",
+      "name": "Collab.Land",
+      "description": "Collab.Land leverages the power of identity through crypto currency to create a social space unique to a specific network of humans. Once you add the bot to your Telegram group or Discord guild, they will manage your people for you. Depending on their token holdings they will be allowed to join the community. If they sell, the bot boots them.",
+      "url": "https://collab.land/"
+    },
+    {
+      "logo": "https://www.coinshift.xyz/favicon.ico",
+      "name": "Coinshift",
+      "description": "Coinshift simplifies treasury management by providing efficient multisig tooling to save time & money for crypto organisations.",
+      "url": "https://www.coinshift.xyz/"
+    },
+    {
+      "logo": "https://snapshot.box/favicon.ico",
+      "name": "Snapshot",
+      "description": "Snapshot is a decentralized voting system.",
+      "url": "https://snapshot.box/#/explore"
+    },
+    {
+      "logo": "https://www.hq.xyz/favicon.ico",
+      "name": "HQ.xyz",
+      "description": "Wallet aggregation and Zapier-like automation tools for DAOs.",
+      "url": "https://www.hq.xyz/"
+    }
+  ],
+  "Code Quality": [
+    {
+      "logo": "",
+      "name": "Solhint",
+      "description": "This is an open source project for linting Solidity code. This project provides both Security and Style Guide validations.",    
+      "url": "https://github.com/protofire/solhint"    
+    },
+    {
+      "logo": "",
+      "name": "Ethlint",
+      "description": "Ethlint (Formerly Solium) analyzes your Solidity code for style & security issues and fixes them.",    
+      "url": "https://github.com/duaraghav8/Ethlint"    
+    },
+    {
+      "logo": "",
+      "name": "Manticore",
+      "description": "Manticore is a symbolic execution tool for analysis of smart contracts and binaries.",    
+      "url": "https://github.com/trailofbits/manticore"    
+    },
+    {
+      "logo": "",
+      "name": "Slither",
+      "description": "Slither is a Solidity static analysis framework.",    
+      "url": "https://github.com/crytic/slither"    
+    },
+    {
+      "logo": "",
+      "name": "Echidna",
+      "description": "Echidna is a program designed for fuzzing/property-based testing of Ethereum smart contracts.",    
+      "url": "https://github.com/crytic/echidna"    
+    }
+  ],
+  "Front-End": [
+    {
+      "logo": "https://web3js.org/favicon.ico",
+      "name": "Web3.js",
+      "description": "Access full node capabilities without running your own.",      
+      "url": "https://web3js.org/"    
+    },
+    {
+      "logo": "",
+      "name": "Ethers.js",
+      "description": "Designed to make it easier to write client-side JavaScript based wallets, keeping the private key on the owner’s machine at all times.",      
+      "url": "https://docs.ethers.org/ethers.js/v3.0/html/"    
+    }
+  ],
+  "Back-End": [
+    {
+      "logo": "",
+      "name": "Web3.py",
+      "description": "A python interface for interacting with the Ethereum blockchain and ecosystem.",      
+      "url": "https://web3py.readthedocs.io/en/stable/"    
+    },
+    {
+      "logo": "",
+      "name": "Web3.php",
+      "description": "A php interface for interacting with the Ethereum blockchain and ecosystem. Native ABI parsing and smart contract interactions.",      
+      "url": "https://github.com/web3p/web3.php"    
+    },
+    {
+      "logo": "",
+      "name": "Java Web3",
+      "description": "Lightweight Java and Android library for integration with Ethereum clients.",      
+      "url": "https://github.com/LFDT-web3j/web3j"    
+    },
+    {
+      "logo": "https://nethereum.com/favicon.ico",
+      "name": "Net Web3",
+      "description": "Bringing the love of .NET to Ethereum An open source .NET integration library for blockchain.",      
+      "url": "https://nethereum.com/"    
+    },
+    {
+      "logo": "",
+      "name": "Ruby Web3",
+      "description": "Ethereum library for the Ruby language.",      
+      "url": "https://github.com/EthWorks/ethereum.rb"    
+    }
+  ],
+  "IDE": [
+    {
+      "logo": "https://remix.ethereum.org/favicon.ico",
+      "name": "Remix",
+      "description": "Remix IDE allows developing, deploying and administering smart contracts for Ethereum like blockchains.",              
+      "url": "https://remix.ethereum.org/"    
+    },
+    {
+      "logo": "https://www.jetbrains.com/favicon.ico",
+      "name": "Intellij Solidity Plugin",
+      "description": "Every aspect of IntelliJ IDEA has been designed to maximize developer productivity. Together, intelligent coding assistance and ergonomic design make development not only productive but also enjoyable.",              
+      "url": "https://www.jetbrains.com/idea/"    
+    },
+    {
+      "logo": "https://chainide.com/favicon.ico",
+      "name": "ChainIDE",
+      "description": "A Cloud-Based Multi-Chain IDE.",              
+      "url": "https://chainide.com/"    
+    }
+  ],
+  "Framework": [
+    {
+      "logo": "https://archive.trufflesuite.com/favicon.ico",
+      "name": "Truffle",
+      "description": "A world class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine.",      
+      "url": "https://archive.trufflesuite.com/"    
+    },
+    {
+      "logo": "",
+      "name": "Embark",
+      "description": "Embark is a platform that enables easy development and deployment of decentralized applications.",      
+      "url": "https://github.com/embarklabs/embark"    
+    },
+    {
+      "logo": "https://getwaffle.io/favicon.ico",
+      "name": "Waffle",
+      "description": "The most advanced framework for testing smart contracts.",      
+      "url": "https://getwaffle.io/"    
+    },
+    {
+      "logo": "https://www.openzeppelin.com/favicon.ico",
+      "name": "OpenZeppelin",
+      "description": "OpenZeppelin provides security products to build, automate, and operate decentralized applications. We also protect leading organizations by performing security audits on their systems and products.",      
+      "url": "https://www.openzeppelin.com/"    
+    },
+    {
+      "logo": "https://hardhat.org/favicon.ico",
+      "name": "HardHat",
+      "description": "Hardhat is a development environment for Ethereum software.",      
+      "url": "https://hardhat.org/"    
+    },
+    {
+      "logo": "https://reclaimprotocol.org/favicon.ico",
+      "name": "Reclaim Protocol",
+      "description": "Reclaim simplifies integrating external user activity, reputation, and identity into your platform.",      
+      "url": "https://reclaimprotocol.org/"    
+    },
+    {
+      "logo": "https://www.starton.com/favicon.ico",
+      "name": "Starton",
+      "description": "Starton is the most powerful development suite to build and scale web3 applications. We are the bridge to enable web2 companies to embrace web3.",      
+      "url": "https://www.starton.com/"    
+    }
+  ],
+  "SDK": [
+    {
+      "logo": "https://www.venly.io/favicon.ico",
+      "name": "Venly",
+      "description": "Wallet creation by social accounts.",      
+      "url": "https://www.venly.io/product/wallet-as-a-service"    
+    },
+    {
+      "logo": "https://sequence.app/favicon.ico",
+      "name": "Sequence.app",
+      "description": "Wallet creation by social accounts.",      
+      "url": "https://sequence.app/"    
+    },
+    {
+      "logo": "https://web3auth.io/favicon.ico",
+      "name": "Web3Auth",
+      "description": "Wallet creation by social accounts.",      
+      "url": "https://web3auth.io/"    
+    },
+    {
+      "logo": "https://tokenup.org/favicon.ico",
+      "name": "TokenUp SDK",
+      "description": "TokenUp Wallet | The only wallet you need: best option for Web3, NFTs, and DeFi.",      
+      "url": "https://docs.tokenup.org/evm/connect.html"    
+    },
+    {
+      "logo": "https://swapx.exchange/favicon.ico",
+      "name": "SwapX SDK",
+      "description": "SwapX Protocol | Your Decentralized Gateway to Fiat, Crypto & NFTs Across Chains.",      
+      "url": "https://docs.swapx.exchange/sdk"    
+    },
+    {
+      "logo": "https://magic.link/favicon.ico",
+      "name": "Magic",
+      "description": "We've onboarded 40 million people to the world's leading apps. We're trusted by over 190,000 developers. We're Magic.",      
+      "url": "https://magic.link/"    
+    },
+    {
+      "logo": "https://sequence.xyz/favicon.ico",
+      "name": "Sequence",
+      "description": "Build web3 apps easily with Sequence's powerful SDKs, audited smart contracts, and developer tools—for Ethereum & every EVM chain. Try now.",      
+      "url": "https://sequence.xyz"    
+    },
+    {
+      "logo": "https://reown.com/favicon.ico",
+      "name": "WalletConnect",
+      "description": "Reown gives developers the tools to build user experiences that make digital ownership effortless, intuitive, and secure. Explore now.",      
+      "url": "https://reown.com/"    
+    },
+    {
+      "logo": "",
+      "name": "Ethers.js",
+      "description": "Designed to make it easier to write client-side JavaScript based wallets, keeping the private key on the owner’s machine at all times.",      
+      "url": "https://docs.ethers.org/ethers.js/v3.0/html/"    
+    },
+    {
+      "logo": "https://web3js.org/favicon.ico",
+      "name": "Web3.js",
+      "description": "Access full node capabilities without running your own.",      
+      "url": "https://web3js.org/"    
+    },
+    {
+      "logo": "https://viem.sh/favicon.ico",
+      "name": "viem",
+      "description": "Build reliable Ethereum apps & libraries with lightweight, composable, & type-safe modules from viem.",      
+      "url": "https://viem.sh/"    
+    }
+  ],
+  "MPC": [
+    {
+      "logo": "https://www.qredo.com/favicon.ico",
+      "name": "Qredo",
+      "description": "MPC Wallets increase overall security for key management and such solutions are critical for protocol/project treasury management.",      
+      "url": "https://www.qredo.com/"    
+    },
+    {
+      "logo": "https://safe.global/favicon.ico",
+      "name": "Gnosis",
+      "description": "The purpose of multisig wallets is to increase security by requiring multiple parties to agree on transactions before execution.",      
+      "url": "https://safe.global/"    
+    },
+    {
+      "logo": "https://particle.network/favicon.ico",
+      "name": "Particle Network",
+      "description": "Particle Network is a mobile app data and development platform for Web3.0. Mobile-first, data driven, composable.",      
+      "url": "https://particle.network/"    
+    },
+    {
+      "logo": "https://www.nsuite.io/favicon.ico",
+      "name": "N Suite",
+      "description": "N Suite is a subscription-based, enterprise grade Private Key Management tool for Web3 operations. It enables teams to securely manage their on-chain assets, while achieving efficiencies necessary to scale operations.",      
+      "url": "https://www.nsuite.io/"
+    }
+  ],
+  "Oracle": [
+    {
+      "logo": "https://www.redstone.finance/favicon.ico",
+      "name": "RedStone Oracles",
+      "description": "RedStone is a decentralized modular oracle that provides gas-optimized data feeds. It specializes in offering price feeds for emerging assets, such as liquid staking tokens (LSTs), liquid restaking tokens (LRTs), and Bitcoin staking derivatives.",
+      "url": "https://www.redstone.finance/"
+    },
+    {
+      "logo": "https://www.bandprotocol.com/favicon.ico",
+      "name": "Band Protocol",
+      "description": "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
+      "url": "https://www.bandprotocol.com/"
+    },
+    {
+      "logo": "https://chain.link/favicon.ico",
+      "name": "Chainlink",
+      "description": "Securely connect smart contracts with off-chain data and services Chainlink decentralized oracle networks provide tamper-proof inputs, outputs, and computations to support advanced smart contracts on any blockchain.",
+      "url": "https://chain.link/"
+    },
+    {
+      "logo": "https://www.pyth.network/favicon.ico",
+      "name": "Pyth",
+      "description": "Pyth delivers real-time on-chain market data.",
+      "url": "https://www.pyth.network/"
+    }
+  ],
+  "Wallet": [
+    {
+      "logo": "https://trezor.io/favicon.ico",
+      "name": "Trezor",
+      "description": "The safest cold storage wallets for crypto security and financial independence.",
+      "url": "https://trezor.io/trezor-suite"
+    },
+    {
+      "logo": "https://tokenup.org/favicon.ico",
+      "name": "TokenUp",
+      "description": "TokenUp Wallet | The only wallet you need: best option for Web3, NFTs, and DeFi.",
+      "url": "https://tokenup.org/"
+    },
+    {
+      "logo": "https://www.ledger.com/favicon.ico",
+      "name": "Ledger",
+      "description": "Keeps a detailed record of every transaction in the life of a company.",
+      "url": "https://www.ledger.com/"
+    },
+    {
+      "logo": "https://www.safepal.com/favicon.ico",
+      "name": "SafePal",
+      "description": "Securely stores your crypto assets in the most simple and easy way.",
+      "url": "https://www.safepal.com/"
+    },
+    {
+      "logo": "https://desig.io/favicon.ico",
+      "name": "DeSig",
+      "description": "The first Omnichain Smart Multisig wallet that streamlines treasury ops.",
+      "url": "https://desig.io/"
+    },
+    {
+      "logo": "https://safe.global/favicon.ico",
+      "name": "Gnosis",
+      "description": "The purpose of multisig wallets is to increase security by requiring multiple parties to agree on transactions before execution.",
+      "url": "https://safe.global/"
+    },
+    {
+      "logo": "https://mpcvault.com/favicon.ico",
+      "name": "Mpcvault",
+      "description": "Flexible and scalable MPC custody. 8x faster transaction signing.",
+      "url": "https://mpcvault.com/"
+    },
+    {
+      "logo": "https://metamask.io/favicon.ico",
+      "name": "MetaMask",
+      "description": "Set up your crypto wallet and access all of Web3 and enjoy total control over your data, assets, and digital self. The go-to web3 wallet for 100+ million users.",
+      "url": "https://metamask.io/"
+    },
+    {
+      "logo": "https://www.tokenpocket.pro/favicon.ico",
+      "name": "TokenPocket",
+      "description": "TokenPocket is a world-leading crypto wallet, supporting public blockchains including BTC, ETH, BSC, TRON, Aptos, Polygon, Solana, OKExChain, Polkadot, Kusama, EOS and Layer2.",
+      "url": "https://www.tokenpocket.pro/"
+    },
+    {
+      "logo": "https://trustwallet.com/favicon.ico",
+      "name": "Trust Wallet",
+      "description": "Unlock the power of your cryptocurrency assets and explore the world of Web3 with Trust. The leading self-custody multi-chain platform. Download Trust app now!",
+      "url": "https://trustwallet.com/"
+    }
+  ],
+  "Payment Gateway": [
+    {
+      "logo": "https://www.payout.plus/favicon.ico",
+      "name": "Settlement",
+      "description": "Seamless Web3 Payments. Settled.",
+      "url": "https://www.payout.plus/"
+    }
+  ],
+  "Security Audit": [
+    {
+      "logo": "https://www.certik.com/favicon.ico",
+      "name": "CertiK",
+      "description": "Leading security-focused ranking platform to analyze and monitor blockchain protocols and DeFi projects.",
+      "url": "https://www.certik.com/"
+    },
+    {
+      "logo": "https://peckshield.com/favicon.ico",
+      "name": "PeckShield",
+      "description": "Security Audit, Threat Monitoring and Prevention, Pen Test and Emergency Response, Total Solutions.",
+      "url": "https://peckshield.com/"
+    },
+    {
+      "logo": "https://www.slowmist.com/favicon.ico",
+      "name": "SlowMist",
+      "description": "SlowMist is a Blockchain security firm, providing security audits, security consultants, red teaming, and more.",
+      "url": "https://www.slowmist.com/"
+    },
+    {
+      "logo": "https://www.staginglabs.io/favicon.ico",
+      "name": "Staging Labs",
+      "description": "An infrastructure layer protecting Web3 users and businesses from mistakes, hacks, and scams.",
+      "url": "https://www.staginglabs.io/"
+    },
+    {
+      "logo": "https://gopluslabs.io/favicon.ico",
+      "name": "Go+ / Go Plus",
+      "description": "Provide security service, open & permissionless, accessible to everyone. We want to optimize the revenue model for white hats, developers, and security auditors to provide security services and expand user coverage by allowing users to have easier access to the high efficient security resources. Two main product are developed for this purpose, Go+ API and Go Pocket.",
+      "url": "https://gopluslabs.io/"
+    },
+    {
+      "logo": "https://verichains.io/favicon.ico",
+      "name": "Verichains",
+      "description": "Provides security audit services and formally verified audits for your blockchain implementation, consensus protocol, smart contracts and dApps using industry-standard security patterns and best practices.",
+      "url": "https://verichains.io/"
+    },
+    {
+      "logo": "https://www.halborn.com/favicon.ico",
+      "name": "Halborn",
+      "description": "Blockchain security firm focused on security advisory, advanced penetration testing, smart contract audits and devOps & automation.",
+      "url": "https://www.halborn.com/"
+    },
+    {
+      "logo": "https://www.trailofbits.com/favicon.ico",
+      "name": "Trail of Bits",
+      "description": "Software assurance, security engineering and research & development security services with a wide range of products.",
+      "url": "https://www.trailofbits.com/"
+    },
+    {
+      "logo": "https://zokyo.io/favicon.ico",
+      "name": "Zokyo",
+      "description": "Security audits (protocol, base code, wallet, smart contract), Penetration Testing and other security assessments.",
+      "url": "https://zokyo.io/"
+    },
+    {
+      "logo": "https://www.quillaudits.com/favicon.ico",
+      "name": "QuillAudits",
+      "description": "Web3 security leader with robust audits, penetration testing and more, having audited 1000+ projects since 2018..",
+      "url": "https://www.quillaudits.com/"
+    }
+  ],
+  "Storage": [
+    {
+      "logo": "https://ipfs.tech/favicon.ico",
+      "name": "IPFS",
+      "description": "A peer-to-peer hypermedia protocol designed to preserve and grow humanity's knowledge by making the web upgradeable, resilient, and more open.",
+      "url": "https://ipfs.tech/"
+    },
+    {
+      "logo": "https://www.arweave.org/favicon.ico",
+      "name": "Arweave",
+      "description": "Decentralized on-chain data storage.",
+      "url": "https://www.arweave.org/"
+    },
+    {
+      "logo": "https://pinata.cloud/favicon.ico",
+      "name": "Pinata.cloud",
+      "description": "Pinata is an NFT media management service that allows users to host, manage and share files of any kind on the blockchain of their choice. As an IPFS pinning service, we focus on giving both technical and non-technical creators a fast, easy, and reliable way to share content without limits.",
+      "url": "https://pinata.cloud/"
+    }
+  ]
+}
