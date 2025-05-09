@@ -1,0 +1,11 @@
+{
+    "name": "Wrapped XOC",
+    "website": "https://rainlink.co/",
+    "description": "Rainlink WXOC",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "WXOC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x0704AF16e5d98A427A595ea83119be08E36938eE"
+}
