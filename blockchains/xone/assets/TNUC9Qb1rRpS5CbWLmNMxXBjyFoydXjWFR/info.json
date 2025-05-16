@@ -1,0 +1,11 @@
+{
+    "name": "TRON",
+    "website": "https://tron.network/",
+    "description": "TRON",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "TRX",
+    "decimals": 6,
+    "status": "active",
+    "id": "TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR"
+}
