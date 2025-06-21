@@ -1,0 +1,11 @@
+{
+    "name": "Malou",
+    "website": "https://maloutoken.io",
+    "description": "Forged to resist the bad life!",
+    "explorer": "https://testnet.xonescan.com/",
+    "type": "ERC20",
+    "symbol": "ML",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xbe548F30b5142C4b2B262B083319385d54a4578B"
+}
