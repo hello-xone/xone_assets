@@ -1,0 +1,11 @@
+{
+    "name": "USD Coin",
+    "website": "https://www.usdc.com/",
+    "description": "Circle Internet Group",
+    "explorer": "https://xscscan.com/",
+    "type": "ERC20",
+    "symbol": "USDC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x02D45d684A233F3bA0C55fE941854FC0E5235fE1"
+}
