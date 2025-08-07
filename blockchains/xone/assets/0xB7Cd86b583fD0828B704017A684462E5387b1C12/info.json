@@ -5,7 +5,7 @@
     "explorer": "https://xonescan.com/",
     "type": "ERC1155",
     "symbol": "TOTF",
-    "decimals":6,
+    "decimals":18,
     "status": "active",
     "id": "0xB7Cd86b583fD0828B704017A684462E5387b1C12"
 }
