@@ -2,7 +2,7 @@
     "name": "Boom Woof",
     "website": "https://xone.org/",
     "description": "Boom Woof",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "bwoof",
     "decimals": 18,

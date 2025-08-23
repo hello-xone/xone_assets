@@ -2,7 +2,7 @@
     "name": "Liq Bridge",
     "website": "https://xone.org/",
     "description": "Liq Bridge",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "Liq",
     "decimals": 18,

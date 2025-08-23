@@ -2,7 +2,7 @@
     "name": "Virtual Origin",
     "website": "https://xone.org/",
     "description": "Virtual Origin",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "VOR",
     "decimals": 18,

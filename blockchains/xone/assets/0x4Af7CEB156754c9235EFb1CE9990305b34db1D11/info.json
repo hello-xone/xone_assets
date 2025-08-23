@@ -2,7 +2,7 @@
     "name": "Yield Sync",
     "website": "https://xone.org/",
     "description": "Yield Sync",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "Yisc",
     "decimals": 18,

@@ -2,7 +2,7 @@
     "name": "NovaPulse",
     "website": "https://xone.org/",
     "description": "NovaPulse",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "NPX",
     "decimals": 18,

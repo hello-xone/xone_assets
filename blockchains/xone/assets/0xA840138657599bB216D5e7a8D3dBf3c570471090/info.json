@@ -2,7 +2,7 @@
     "name": "Orion Byte",
     "website": "https://xone.org/",
     "description": "Orion Byte",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "OBT",
     "decimals": 18,

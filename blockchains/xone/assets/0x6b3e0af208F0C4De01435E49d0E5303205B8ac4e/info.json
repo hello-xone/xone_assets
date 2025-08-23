@@ -2,7 +2,7 @@
     "name": "Synapse Net",
     "website": "https://xone.org/",
     "description": "Synapse Net",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "synapse",
     "decimals": 18,

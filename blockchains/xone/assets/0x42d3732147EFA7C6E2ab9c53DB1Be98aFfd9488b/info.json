@@ -2,7 +2,7 @@
     "name": "Vital Spark",
     "website": "https://xone.org/",
     "description": "Vital Spark",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "vspark",
     "decimals": 18,

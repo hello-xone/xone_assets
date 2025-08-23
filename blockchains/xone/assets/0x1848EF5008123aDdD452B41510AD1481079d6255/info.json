@@ -2,7 +2,7 @@
     "name": "XoneCard",
     "website": "https://xone.org/",
     "description": "XoneCard",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "xcard",
     "decimals": 18,

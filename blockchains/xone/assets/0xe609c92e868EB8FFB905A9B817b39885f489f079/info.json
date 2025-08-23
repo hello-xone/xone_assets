@@ -2,7 +2,7 @@
     "name": "HyperQuantChain",
     "website": "https://xone.org/",
     "description": "HyperQuantChain",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "HQC",
     "decimals": 18,

@@ -2,7 +2,7 @@
     "name": "Quantum Flux",
     "website": "https://xone.org/",
     "description": "Quantum Flux",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "quant",
     "decimals": 18,

@@ -2,7 +2,7 @@
     "name": "Ethereum Token",
     "website": "https://ethereum.org/",
     "description": "Ethereum Token",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "ETH",
     "decimals": 18,

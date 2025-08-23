@@ -2,7 +2,7 @@
     "name": "BNB",
     "website": "https://binance.com/",
     "description": "BNB",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "BNB",
     "decimals": 18,

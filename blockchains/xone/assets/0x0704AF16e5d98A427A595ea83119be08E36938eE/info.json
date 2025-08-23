@@ -2,7 +2,7 @@
     "name": "Wrapped XOC",
     "website": "https://xone.org",
     "description": "Rainlink WXOC",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "WXOC",
     "decimals": 18,

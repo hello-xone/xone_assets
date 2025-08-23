@@ -2,7 +2,7 @@
     "name": "Woof Fi",
     "website": "https://xone.org/",
     "description": "Woof Fi",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "woo",
     "decimals": 18,

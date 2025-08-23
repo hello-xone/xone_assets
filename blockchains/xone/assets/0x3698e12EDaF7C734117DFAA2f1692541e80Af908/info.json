@@ -2,7 +2,7 @@
     "name": "X-Over",
     "website": "https://xone.org/",
     "description": "X-Over",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "XO",
     "decimals": 18,

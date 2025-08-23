@@ -2,7 +2,7 @@
     "name": "Xone test coin",
     "website": "https://xone.org/",
     "description": "xone first test coin",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "XTC",
     "decimals": 18,

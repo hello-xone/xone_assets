@@ -2,7 +2,7 @@
     "name": "HorizonX (hnx)",
     "website": "https://xone.org/",
     "description": "HorizonX (hnx)",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "hnx",
     "decimals": 18,

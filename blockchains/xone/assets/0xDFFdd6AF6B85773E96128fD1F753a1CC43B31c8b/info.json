@@ -2,7 +2,7 @@
     "name": "HardBase",
     "website": "https://xone.org/",
     "description": "HardBase",
-    "explorer": "https://xscscan.com/",
+    "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "HBD",
     "decimals": 18,
