@@ -1,0 +1,11 @@
+{
+    "name": "XAI Token",
+    "website": "",
+    "description": "Ai Dao生态首个Ai应用生态代币",
+    "explorer": "https://xonescan.com/",
+    "type": "ERC20",
+    "symbol": "XAI",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x079Bb48f28EC3e48a09c93F9cf55783e50888888"
+}
