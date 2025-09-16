@@ -45,6 +45,7 @@ validators_settings:
       - "node_modules"
     skip_dirs:
       - ".git"
+      - "vendor"
 
   chain_folder:
     allowed_files:
