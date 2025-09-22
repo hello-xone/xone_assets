@@ -1,0 +1,11 @@
+{
+  "name": "Fancy Swap",
+  "website": "https://fancydao.co/",
+  "description": "Fancy Swap is the first native financial protocol of the XONE ecosystem",
+  "explorer": "https://xonecan.com/",
+  "type": "ERC20", 
+  "symbol": "FC",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xBF3C3AABcDBAFa5f8486FCb840F4787b4ab1800F"
+}
