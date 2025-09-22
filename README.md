@@ -44,7 +44,7 @@ Create a JSON file with the following structure:
   "name": "example",
   "website": "https://example.com/",
   "description": "example",
-  "explorer": "https://xonecan.com/",
+  "explorer": "https://xonescan.com/",
   "type": "ERC20",
   "symbol": "ZRO",
   "decimals": 18,
