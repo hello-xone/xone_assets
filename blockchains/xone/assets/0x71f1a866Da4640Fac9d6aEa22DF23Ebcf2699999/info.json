@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "XAI Token",
     "website": "",
     "description": "Ai Dao生态首个Ai应用生态代币",
@@ -8,4 +9,5 @@
     "decimals": 18,
     "status": "active",
     "id": "0x71f1a866Da4640Fac9d6aEa22DF23Ebcf2699999"
+  }
 }

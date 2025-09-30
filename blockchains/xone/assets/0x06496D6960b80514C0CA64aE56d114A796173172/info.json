@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Zero One Revolution",
     "website": "https://xone.org/",
     "description": "Zero One Revolution",
@@ -8,4 +9,5 @@
     "decimals": 18,
     "status": "active",
     "id": "0x06496D6960b80514C0CA64aE56d114A796173172"
+  }
 }

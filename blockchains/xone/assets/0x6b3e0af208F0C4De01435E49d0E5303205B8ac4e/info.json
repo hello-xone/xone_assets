@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Synapse Net",
     "website": "https://xone.org/",
     "description": "Synapse Net",
@@ -8,4 +9,5 @@
     "decimals": 18,
     "status": "active",
     "id": "0x6b3e0af208F0C4De01435E49d0E5303205B8ac4e"
+  }
 }

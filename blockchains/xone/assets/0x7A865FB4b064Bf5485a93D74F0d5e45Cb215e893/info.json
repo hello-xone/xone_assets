@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "GALA",
     "website": "https://xone.org/",
     "description": "GALA",
@@ -8,4 +9,5 @@
     "decimals": 18,
     "status": "active",
     "id": "0x7A865FB4b064Bf5485a93D74F0d5e45Cb215e893"
+  }
 }

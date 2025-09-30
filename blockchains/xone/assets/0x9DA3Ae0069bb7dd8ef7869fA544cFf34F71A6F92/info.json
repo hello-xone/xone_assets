@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Interactive Magic Cube",
     "website": "https://xone.org/",
     "description": "Interactive Magic Cube",
@@ -8,4 +9,5 @@
     "decimals": 18,
     "status": "active",
     "id": "0x9DA3Ae0069bb7dd8ef7869fA544cFf34F71A6F92"
+  }
 }

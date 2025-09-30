@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "HedgePay",
     "website": "https://xone.org/",
     "description": "HedgePay",
@@ -8,4 +9,5 @@
     "decimals": 18,
     "status": "active",
     "id": "0x3096EB564C4231c6A639F0692805B17D192D0B63"
+  }
 }

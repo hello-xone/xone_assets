@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Xone AI",
     "website": "https://xone.org/",
     "description": "xone embraces and uses ai",
@@ -8,4 +9,5 @@
     "decimals": 18,
     "status": "active",
     "id": "0x0e9CA04dCC38DdD2205D637a4B71Bc01e5504251"
+  }
 }

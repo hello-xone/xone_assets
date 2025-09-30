@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Latium (ltx)",
     "website": "https://xone.org/",
     "description": "Latium (ltx)",
@@ -8,4 +9,5 @@
     "decimals": 18,
     "status": "active",
     "id": "0x351bD1aB28315E6E5890aFffAD704a65E9BbC505"
+  }
 }

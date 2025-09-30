@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "XoneCard",
     "website": "https://xone.org/",
     "description": "XoneCard",
@@ -8,4 +9,5 @@
     "decimals": 18,
     "status": "active",
     "id": "0x1848EF5008123aDdD452B41510AD1481079d6255"
+  }
 }

@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Xone test coin",
     "website": "https://xone.org/",
     "description": "xone first test coin",
@@ -8,4 +9,5 @@
     "decimals": 18,
     "status": "active",
     "id": "0x1c54dc4A1130Fb2E95Ea93a3EbF993Cce4a0D5EE"
+  }
 }

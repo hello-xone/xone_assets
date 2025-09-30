@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Wrapped XOC9",
     "website": "https://xone.org/",
     "description": "Wrapped XOC Of WXOC9",
@@ -8,4 +9,5 @@
     "decimals": 18,
     "status": "active",
     "id": "0x4eabbaBeBbb358660cA080e8F2bb09E4a911AB4E"
+  }
 }

@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "ChainSphere",
     "website": "https://xone.org/",
     "description": "ChainSphere",
@@ -8,4 +9,5 @@
     "decimals": 18,
     "status": "active",
     "id": "0x0eBCC22C05b49c8c40A97bdB6bF9702fb53d9166"
+  }
 }

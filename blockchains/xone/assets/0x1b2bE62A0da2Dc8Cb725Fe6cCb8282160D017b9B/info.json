@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "TRON",
     "website": "https://tron.network/",
     "description": "TRON",
@@ -8,4 +9,5 @@
     "decimals": 6,
     "status": "active",
     "id": "0x1b2bE62A0da2Dc8Cb725Fe6cCb8282160D017b9B"
+  }
 }
