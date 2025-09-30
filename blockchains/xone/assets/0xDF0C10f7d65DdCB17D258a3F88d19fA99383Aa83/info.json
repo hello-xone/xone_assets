@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Boom Woof",
     "website": "https://xone.org/",
     "description": "Boom Woof",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0xDF0C10f7d65DdCB17D258a3F88d19fA99383Aa83"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

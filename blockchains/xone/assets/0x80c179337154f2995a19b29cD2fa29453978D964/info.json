@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Nexus API",
     "website": "https://xone.org/",
     "description": "Nexus API",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0x80c179337154f2995a19b29cD2fa29453978D964"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

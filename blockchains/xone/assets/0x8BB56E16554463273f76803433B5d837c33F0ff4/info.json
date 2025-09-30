@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Decentra Link",
     "website": "https://xone.org/",
     "description": "Decentra Link",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0x8BB56E16554463273f76803433B5d837c33F0ff4"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

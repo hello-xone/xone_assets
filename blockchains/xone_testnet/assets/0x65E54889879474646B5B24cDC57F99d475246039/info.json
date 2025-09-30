@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Mongo Work",
     "website": "",
     "description": "Let us welcome the mango era together!",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0x65E54889879474646B5B24cDC57F99d475246039"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

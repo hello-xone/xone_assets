@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "HoloPay",
     "website": "https://xone.org/",
     "description": "HoloPay",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0x3edbB0c626a8bAf9F3D41a6c98143d4D623C6E94"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

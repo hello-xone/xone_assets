@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "CryoCore",
     "website": "https://xone.org/",
     "description": "CryoCore",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0x3CD48A78C67229DA27D62D0fDeB282Dc860a9cA9"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

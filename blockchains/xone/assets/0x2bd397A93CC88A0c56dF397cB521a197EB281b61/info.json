@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Quantum Forge",
     "website": "https://xone.org/",
     "description": "Quantum Forge",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0x2bd397A93CC88A0c56dF397cB521a197EB281b61"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

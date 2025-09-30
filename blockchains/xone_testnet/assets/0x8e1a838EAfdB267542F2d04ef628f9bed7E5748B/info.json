@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Xone Coin",
     "website": "https://xone.org/",
     "description": "Let’s Embrace The Future Together!",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0x8e1a838EAfdB267542F2d04ef628f9bed7E5748B"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

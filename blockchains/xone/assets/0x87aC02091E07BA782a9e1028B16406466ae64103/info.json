@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "HoloFlex",
     "website": "https://xone.org/",
     "description": "HoloFlex",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0x87aC02091E07BA782a9e1028B16406466ae64103"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

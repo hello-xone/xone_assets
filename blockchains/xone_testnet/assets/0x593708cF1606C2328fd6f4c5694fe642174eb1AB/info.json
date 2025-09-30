@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Wrapped XOC",
     "website": "https://xone.org/",
     "description": "Wrapped XOC",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0x593708cF1606C2328fd6f4c5694fe642174eb1AB"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

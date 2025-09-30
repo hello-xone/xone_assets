@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Q-Track (Q-X)",
     "website": "https://xone.org/",
     "description": "Q-Track (Q-X)",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0x50F1E99D6Aae1aB9ae6193D49cE6F593d393C0E9"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

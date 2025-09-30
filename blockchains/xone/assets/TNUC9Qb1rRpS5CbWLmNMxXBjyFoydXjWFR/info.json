@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "TRON",
     "website": "https://tron.network/",
     "description": "TRON",
@@ -8,4 +9,29 @@
     "decimals": 6,
     "status": "active",
     "id": "TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

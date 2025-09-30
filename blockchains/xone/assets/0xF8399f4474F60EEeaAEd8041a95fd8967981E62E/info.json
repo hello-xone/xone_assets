@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Hexo",
     "website": "https://xone.org/",
     "description": "Hexo",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0xF8399f4474F60EEeaAEd8041a95fd8967981E62E"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

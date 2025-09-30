@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Tether USD",
     "website": "https://tether.to",
     "description": "Tether USD",
@@ -8,4 +9,29 @@
     "decimals": 6,
     "status": "active",
     "id": "0xdCAa74bF71DCDe6d642137c69ece895b8e2F29A2"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Turbo USD",
     "website": "https://turboswap.me/",
     "description": "TurboSwap aggregates Swap, Bridge, Buy/Sell, delivering lightning-fast conversions, low-slippage liquidity, and unified channel integration.",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0xd1Cc6A858459d58D110c039982A9a21B3c350982"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

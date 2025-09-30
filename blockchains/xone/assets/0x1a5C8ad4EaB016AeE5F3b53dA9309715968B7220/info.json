@@ -1,11 +1,37 @@
 {
-  "name": "NUTX",                     
-  "website": "https://nutx.ai/",     
-  "description": "NUTX Token",        
-  "explorer": "https://xonecan.com/",    
-  "type": "ERC20",                       
-  "symbol": "NUTX",                       
-  "decimals": 18,                         
-  "status": "active",                    
-  "id": "0x1a5C8ad4EaB016AeE5F3b53dA9309715968B7220"     
+  "Basic Information": {
+    "name": "NUTX",
+    "website": "https://nutx.ai/",
+    "description": "NUTX Token",
+    "explorer": "https://xonecan.com/",
+    "type": "ERC20",
+    "symbol": "NUTX",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x1a5C8ad4EaB016AeE5F3b53dA9309715968B7220"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }
