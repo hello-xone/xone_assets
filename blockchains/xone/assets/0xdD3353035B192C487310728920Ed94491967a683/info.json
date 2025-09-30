@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "X Orbit Network",
     "website": "https://xone.org/",
     "description": "X Orbit Network",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0xdD3353035B192C487310728920Ed94491967a683"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

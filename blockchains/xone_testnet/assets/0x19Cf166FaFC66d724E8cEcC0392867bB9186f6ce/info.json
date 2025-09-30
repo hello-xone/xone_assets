@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "ETH TOKEN",
     "website": "https://ethereum.org",
     "description": "ETH TOKEN",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0x19Cf166FaFC66d724E8cEcC0392867bB9186f6ce"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

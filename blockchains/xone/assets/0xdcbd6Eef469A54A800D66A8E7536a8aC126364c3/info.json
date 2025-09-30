@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "FOMO",
     "website": "https://xone.org/",
     "description": "FOMO",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0xdcbd6Eef469A54A800D66A8E7536a8aC126364c3"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

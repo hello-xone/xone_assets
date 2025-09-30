@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Flux (Flux)",
     "website": "https://xone.org/",
     "description": "Flux (Flux)",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0xEdAF0C7407D3C02e82a4D8285085562B510C7713"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

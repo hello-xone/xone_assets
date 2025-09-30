@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Orion Byte",
     "website": "https://xone.org/",
     "description": "Orion Byte",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0xA840138657599bB216D5e7a8D3dBf3c570471090"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

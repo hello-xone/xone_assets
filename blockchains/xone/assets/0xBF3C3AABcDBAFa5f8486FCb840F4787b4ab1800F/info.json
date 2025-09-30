@@ -1,11 +1,37 @@
 {
-  "name": "FancySwap",
-  "website": "https://fancydao.co/",
-  "description": "FancySwap is a modular DeFi platform powering the XONE ecosystem with stablecoin trading, meme asset launches, and seamless cross-chain swaps.",
-  "explorer": "https://xonescan.com/",
-  "type": "ERC20", 
-  "symbol": "FC",
-  "decimals": 18,
-  "status": "active",
-  "id": "0xBF3C3AABcDBAFa5f8486FCb840F4787b4ab1800F"
+  "Basic Information": {
+    "name": "FancySwap",
+    "website": "https://fancydao.co/",
+    "description": "FancySwap is a modular DeFi platform powering the XONE ecosystem with stablecoin trading, meme asset launches, and seamless cross-chain swaps.",
+    "explorer": "https://xonescan.com/",
+    "type": "ERC20",
+    "symbol": "FC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xBF3C3AABcDBAFa5f8486FCb840F4787b4ab1800F"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

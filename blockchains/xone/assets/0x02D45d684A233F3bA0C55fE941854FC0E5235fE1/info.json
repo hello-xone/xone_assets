@@ -3,11 +3,37 @@
     "name": "USD Coin",
     "website": "https://www.usdc.com/",
     "description": "Circle Internet Group",
+    "whitepaper": "https://usdc.com/whitepaper",
     "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "USDC",
     "decimals": 18,
     "status": "active",
+    "email": "mangosago@xone.org",
     "id": "0x02D45d684A233F3bA0C55fE941854FC0E5235fE1"
+  },
+  "Social Profiles": {
+    "twitter": "https://twitter.com/USDC",
+    "telegram": "https://t.me/usdcofficial",
+    "reddit": "https://www.reddit.com/r/USDC/",
+    "discord": "https://discord.com/invite/usdc",
+    "slack": "https://circleci.com/slack",
+    "instagram": "https://www.instagram.com/usdcofficial/",
+    "wechat": "https://www.usdc.com/en-us/wechat",
+    "facebook": "https://www.facebook.com/usdcofficial",
+    "medium": "https://medium.com/usdc",
+    "github": "https://medium.com/usdc",
+    "blog": "https://www.circle.com/en/blog",
+    "bitcointalk": "https://bitcointalk.org/index.php?topic=5243801.0",
+    "youtube": "https://www.youtube.com/c/USDc",
+    "tiktok": "https://www.tiktok.com/@usdcofficial",
+    "forum": "https://community.circle.com/",
+    "linkedin": "https://www.linkedin.com/company/usd-coin/",
+    "opensea": "https://opensea.io/collection/usdc"
+  },
+  "Price Data": {
+    "coinMarketCap": "https://opensea.io/collection/usdc",
+    "coinGecko": "https://opensea.io/collection/usdc",
+    "ave": "https://opensea.io/collection/usdc"
   }
 }

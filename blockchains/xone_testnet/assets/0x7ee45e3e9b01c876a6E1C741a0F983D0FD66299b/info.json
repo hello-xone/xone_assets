@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "BNB TOKEN",
     "website": "https://www.binance.com",
     "description": "BNB TOKEN",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0x7ee45e3e9b01c876a6E1C741a0F983D0FD66299b"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

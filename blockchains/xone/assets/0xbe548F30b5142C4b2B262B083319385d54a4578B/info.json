@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Malou",
     "website": "https://maloutoken.io",
     "description": "Forged to resist the bad life!",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0xbe548F30b5142C4b2B262B083319385d54a4578B"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Cyber (cyb)",
     "website": "https://xone.org/",
     "description": "Cyber (cyb)",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0xac75d8E0f07F4b1DEB9af9754f29F819b464d6B6"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

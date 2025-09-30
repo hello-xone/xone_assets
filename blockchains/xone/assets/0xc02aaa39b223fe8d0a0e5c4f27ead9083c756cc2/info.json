@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Ethereum Token",
     "website": "https://ethereum.org/",
     "description": "Ethereum Token",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }

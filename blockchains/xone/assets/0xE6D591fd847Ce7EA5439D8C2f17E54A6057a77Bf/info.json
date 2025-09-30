@@ -1,4 +1,5 @@
 {
+  "Basic Information": {
     "name": "Woof Fi",
     "website": "https://xone.org/",
     "description": "Woof Fi",
@@ -8,4 +9,29 @@
     "decimals": 18,
     "status": "active",
     "id": "0xE6D591fd847Ce7EA5439D8C2f17E54A6057a77Bf"
+  },
+  "Social Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
 }
