@@ -7,22 +7,22 @@
     "status": "status",
     "type": "erc-20",
     "website": "https://xone.org",
-    "description": "第二次提交",
+    "description": "第三次提交",
     "whitepaper": "https://xone.plus",
     "explorer": "https://xscscan.com/",
     "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
-    "twitter": "https://xone.plus",
-    "telegram": "https://xone.plus",
+    "twitter": "https://xone.org",
+    "telegram": "https://xone.org",
     "reddit": null,
-    "discord": "https://xone.plus",
+    "discord": "https://xone.org",
     "slack": "https://xone.plus",
     "instagram": "https://xone.plus",
     "wechat": null,
     "facebook": null,
     "medium": null,
-    "github": "https://xone.plus",
+    "github": "https://xone.org",
     "blog": null,
     "bitcointalk": null,
     "youtube": null,
@@ -33,7 +33,7 @@
   },
   "Price_Data": {
     "coinMarketCap": "https://xone.org",
-    "coinGecko": null,
+    "coinGecko": "https://xone.org",
     "ave": null
   }
 }
