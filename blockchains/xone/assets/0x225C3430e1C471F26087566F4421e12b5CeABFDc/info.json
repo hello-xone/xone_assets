@@ -1,0 +1,26 @@
+{
+  "Basic_Information": {
+    "id": "0x225C3430e1C471F26087566F4421e12b5CeABFDc",
+    "name": "Baby doge",
+    "symbol": "babyDoge",
+    "decimals": 18,
+    "status": "status",
+    "type": "erc-20",
+    "website": "https://xone.org",
+    "description": "描述描述描述描述描述",
+    "whitepaper": "https://xone.org",
+    "explorer": "https://xscscan.com/",
+    "email": "mangosago@xone.org"
+  },
+  "Social_Profiles": {
+    "twitter": "https://xone.org",
+    "telegram": "",
+    "discord": "",
+    "github": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "https://xone.org",
+    "coinGecko": "",
+    "ave": ""
+  }
+}
