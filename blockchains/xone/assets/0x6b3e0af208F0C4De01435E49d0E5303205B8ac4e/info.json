@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Synapse Net",
     "website": "https://xone.org/",
     "description": "Synapse Net",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x6b3e0af208F0C4De01435E49d0E5303205B8ac4e"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

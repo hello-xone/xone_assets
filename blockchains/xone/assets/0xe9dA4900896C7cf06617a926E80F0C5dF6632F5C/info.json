@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "NovaPulse",
     "website": "https://xone.org/",
     "description": "NovaPulse",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xe9dA4900896C7cf06617a926E80F0C5dF6632F5C"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

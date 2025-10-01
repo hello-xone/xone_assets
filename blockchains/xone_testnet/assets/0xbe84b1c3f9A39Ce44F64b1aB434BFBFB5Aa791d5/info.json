@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "PEPE Token",
     "website": "",
     "description": "big meme",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xbe84b1c3f9A39Ce44F64b1aB434BFBFB5Aa791d5"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

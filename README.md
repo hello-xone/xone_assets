@@ -37,11 +37,11 @@ Create a **new folder** named after your token’s **contract address** (all low
 
 #### 📄 `info.json`
 
-Create a JSON file with the following structure. **All fields in "Basic Information" are required and must have non-empty values.** Fields in "Social Profiles" and "Price Data" are optional.
+Create a JSON file with the following structure. **All fields in "Basic_Information" are required and must have non-empty values.** Fields in "Social_Profiles" and "Price_Data" are optional.
 
 ```json
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "USD Coin",
     "website": "https://www.usdc.com/",
     "description": "Circle Internet Group",
@@ -54,7 +54,7 @@ Create a JSON file with the following structure. **All fields in "Basic Informat
     "email": "mangosago@xone.org",
     "id": "0x02D45d684A233F3bA0C55fE941854FC0E5235fE1"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "https://twitter.com/USDC",
     "telegram": "https://t.me/usdcofficial",
     "reddit": "https://www.reddit.com/r/USDC/",
@@ -73,7 +73,7 @@ Create a JSON file with the following structure. **All fields in "Basic Informat
     "linkedin": "https://www.linkedin.com/company/usd-coin/",
     "opensea": "https://opensea.io/collection/usdc"
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "https://opensea.io/collection/usdc",
     "coinGecko": "https://opensea.io/collection/usdc",
     "ave": "https://opensea.io/collection/usdc"
@@ -83,7 +83,8 @@ Create a JSON file with the following structure. **All fields in "Basic Informat
 
 **Field Descriptions:**
 
-**Basic Information (All Required):**
+**Basic_Information (All Required):**
+
 - `name`: The full name of your token (e.g., "USD Coin").
 - `website`: The official website URL for your token or project.
 - `description`: A short description of your token's purpose or functionality.
@@ -99,11 +100,11 @@ Create a JSON file with the following structure. **All fields in "Basic Informat
 - `email`: Contact email for the project.
 - `id`: The token's smart contract address (must be lowercase).
 
-**Social Profiles (Optional):**
+**Social_Profiles (Optional):**
 All social profile fields are optional. Leave empty strings for unavailable profiles.
 
-**Price Data (Optional):**
-All price data fields are optional. Leave empty strings for unavailable sources.
+**Price_Data (Optional):**
+All Price_Data fields are optional. Leave empty strings for unavailable sources.
 
 #### 🖼 `logo.png`
 
@@ -202,15 +203,17 @@ bash validate_info_json.sh
 ```
 
 This script will:
+
 - Scan all `info.json` files in `blockchains/xone` and `blockchains/xone_testnet` directories
-- Validate that all required fields in "Basic Information" are present and have non-empty values
+- Validate that all required fields in "Basic_Information" are present and have non-empty values
 - Check for unexpected fields or sections not in the standard format
 - Report any validation errors
 
 **Requirements:**
+
 - The script requires `jq` to be installed on your system
-- All fields in "Basic Information" must be present and have non-empty values
-- "Social Profiles" and "Price Data" sections are optional, but if present, should only contain the allowed fields
+- All fields in "Basic_Information" must be present and have non-empty values
+- "Social_Profiles" and "Price_Data" sections are optional, but if present, should only contain the allowed fields
 
 ## About display
 

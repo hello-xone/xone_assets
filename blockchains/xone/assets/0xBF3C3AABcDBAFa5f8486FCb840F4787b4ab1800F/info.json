@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "FancySwap",
     "website": "https://fancydao.co/",
     "description": "FancySwap is a modular DeFi platform powering the XONE ecosystem with stablecoin trading, meme asset launches, and seamless cross-chain swaps.",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xBF3C3AABcDBAFa5f8486FCb840F4787b4ab1800F"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

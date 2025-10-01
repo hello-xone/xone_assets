@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "CBB",
     "website": "https://www.crybaby.network/",
     "description": "CRYBABY TO THE MOON",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xE3d77d3aa72063A3C271Fa7f176A376f24788888"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

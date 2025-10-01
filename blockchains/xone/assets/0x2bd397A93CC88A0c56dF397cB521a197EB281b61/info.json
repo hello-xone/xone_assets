@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Quantum Forge",
     "website": "https://xone.org/",
     "description": "Quantum Forge",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x2bd397A93CC88A0c56dF397cB521a197EB281b61"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

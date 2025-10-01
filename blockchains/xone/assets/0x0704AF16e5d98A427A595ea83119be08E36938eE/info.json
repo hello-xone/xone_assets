@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Wrapped XOC",
     "website": "https://xone.org",
     "description": "Rainlink WXOC",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x0704AF16e5d98A427A595ea83119be08E36938eE"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

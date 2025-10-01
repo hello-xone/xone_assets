@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Ink Elegance",
     "website": "https://xone.org/",
     "description": "Ink Elegance",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xFFf1327ede9e3Bd6E9bB9Aa5Ac46956cc3f30F6d"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

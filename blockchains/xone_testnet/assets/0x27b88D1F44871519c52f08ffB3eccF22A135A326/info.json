@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "TRX TOKEN",
     "website": "https://tron.network/",
     "description": "TRX TOKEN",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x27b88D1F44871519c52f08ffB3eccF22A135A326"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

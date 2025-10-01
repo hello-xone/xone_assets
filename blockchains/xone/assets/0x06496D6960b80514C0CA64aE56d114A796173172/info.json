@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Zero One Revolution",
     "website": "https://xone.org/",
     "description": "Zero One Revolution",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x06496D6960b80514C0CA64aE56d114A796173172"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

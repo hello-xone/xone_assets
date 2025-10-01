@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Mongo Work",
     "website": "",
     "description": "Let us welcome the mango era together!",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x65E54889879474646B5B24cDC57F99d475246039"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Tether USD",
     "website": "https://tether.to",
     "description": "Tether USD",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

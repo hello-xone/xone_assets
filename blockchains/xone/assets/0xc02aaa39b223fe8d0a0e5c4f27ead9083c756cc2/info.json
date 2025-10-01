@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Ethereum Token",
     "website": "https://ethereum.org/",
     "description": "Ethereum Token",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

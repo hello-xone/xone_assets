@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "FOMO",
     "website": "https://xone.org/",
     "description": "FOMO",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xdcbd6Eef469A54A800D66A8E7536a8aC126364c3"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "baby boss",
     "website": "https://xone.org/",
     "description": "baby boss",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x38293a46F1616788E54872c4354426F1Bb90D923"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

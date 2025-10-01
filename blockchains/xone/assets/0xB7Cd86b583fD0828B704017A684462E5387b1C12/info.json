@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Tears of the Fallen",
     "website": "https://www.crybaby.network/",
     "description": "Tears of the Fallen",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xB7Cd86b583fD0828B704017A684462E5387b1C12"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

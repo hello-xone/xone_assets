@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Huione USD",
     "website": "https://huione.money/en/home",
     "description": "USDH(Huione USD)，Stablecoin that Never be Freezed",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xc69751291E117420065c10bc4ba155448a5e7338"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

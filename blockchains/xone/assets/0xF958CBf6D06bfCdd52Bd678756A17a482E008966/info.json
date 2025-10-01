@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Quantum Flux",
     "website": "https://xone.org/",
     "description": "Quantum Flux",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xF958CBf6D06bfCdd52Bd678756A17a482E008966"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

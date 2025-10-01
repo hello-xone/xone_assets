@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "HedgePay",
     "website": "https://xone.org/",
     "description": "HedgePay",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x3096EB564C4231c6A639F0692805B17D192D0B63"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

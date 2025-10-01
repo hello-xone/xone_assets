@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "X Orbit Network",
     "website": "https://xone.org/",
     "description": "X Orbit Network",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xdD3353035B192C487310728920Ed94491967a683"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

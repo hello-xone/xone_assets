@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "NUTX",
     "website": "https://nutx.ai/",
     "description": "NUTX Token",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x1a5C8ad4EaB016AeE5F3b53dA9309715968B7220"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

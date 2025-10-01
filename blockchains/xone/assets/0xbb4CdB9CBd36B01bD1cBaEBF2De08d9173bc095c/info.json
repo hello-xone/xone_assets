@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "BNB",
     "website": "https://binance.com/",
     "description": "BNB",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xE3159D4753C4126aFe1F5cCaf4D90ae2524Bf7E9"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "AI Brain (AIB)",
     "website": "https://xone.org/",
     "description": "AI Brain (AIB)",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x4938eF5C61f2c281321B47b41368f14F97Df280a"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

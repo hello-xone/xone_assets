@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Vital Spark",
     "website": "https://xone.org/",
     "description": "Vital Spark",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x42d3732147EFA7C6E2ab9c53DB1Be98aFfd9488b"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

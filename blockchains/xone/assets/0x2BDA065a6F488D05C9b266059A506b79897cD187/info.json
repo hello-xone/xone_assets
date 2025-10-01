@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Omnium",
     "website": "https://xone.org/",
     "description": "Omnium",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x2BDA065a6F488D05C9b266059A506b79897cD187"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

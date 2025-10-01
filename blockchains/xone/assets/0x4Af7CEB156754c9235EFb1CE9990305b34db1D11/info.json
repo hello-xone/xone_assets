@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Yield Sync",
     "website": "https://xone.org/",
     "description": "Yield Sync",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x4Af7CEB156754c9235EFb1CE9990305b34db1D11"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

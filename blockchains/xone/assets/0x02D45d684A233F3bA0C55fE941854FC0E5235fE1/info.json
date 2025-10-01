@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "USD Coin",
     "website": "https://www.usdc.com/",
     "description": "Circle Internet Group",
@@ -12,7 +12,7 @@
     "email": "mangosago@xone.org",
     "id": "0x02D45d684A233F3bA0C55fE941854FC0E5235fE1"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "https://twitter.com/USDC",
     "telegram": "https://t.me/usdcofficial",
     "reddit": "https://www.reddit.com/r/USDC/",
@@ -31,7 +31,7 @@
     "linkedin": "https://www.linkedin.com/company/usd-coin/",
     "opensea": "https://opensea.io/collection/usdc"
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "https://opensea.io/collection/usdc",
     "coinGecko": "https://opensea.io/collection/usdc",
     "ave": "https://opensea.io/collection/usdc"

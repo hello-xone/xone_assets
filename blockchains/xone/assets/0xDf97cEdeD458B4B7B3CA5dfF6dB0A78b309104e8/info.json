@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "HyperPowerLink",
     "website": "https://xone.org/",
     "description": "HyperPowerLink",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xDf97cEdeD458B4B7B3CA5dfF6dB0A78b309104e8"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

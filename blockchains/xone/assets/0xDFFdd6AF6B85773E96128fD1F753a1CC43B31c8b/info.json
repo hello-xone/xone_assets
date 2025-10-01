@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "HardBase",
     "website": "https://xone.org/",
     "description": "HardBase",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xDFFdd6AF6B85773E96128fD1F753a1CC43B31c8b"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

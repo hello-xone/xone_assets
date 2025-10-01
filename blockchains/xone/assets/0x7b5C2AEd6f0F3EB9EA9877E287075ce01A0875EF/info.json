@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Grass Sprouts",
     "website": "https://xone.org/",
     "description": "as tenacious as grass",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x7b5C2AEd6f0F3EB9EA9877E287075ce01A0875EF"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

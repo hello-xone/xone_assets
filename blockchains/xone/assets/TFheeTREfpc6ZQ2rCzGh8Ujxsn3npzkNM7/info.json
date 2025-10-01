@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Wrapped XOC",
     "website": "https://swapx.exchange/en",
     "description": "SwapX officially issued Xone XOC package token.",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "TFheeTREfpc6ZQ2rCzGh8Ujxsn3npzkNM7"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

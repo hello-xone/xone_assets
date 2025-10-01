@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "HyperStarX",
     "website": "https://xone.org/",
     "description": "HyperStarX",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xc44ee0301A0EF69D840bfb735c680983c914c17F"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

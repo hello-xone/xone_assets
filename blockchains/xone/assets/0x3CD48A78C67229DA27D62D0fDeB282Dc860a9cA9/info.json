@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "CryoCore",
     "website": "https://xone.org/",
     "description": "CryoCore",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x3CD48A78C67229DA27D62D0fDeB282Dc860a9cA9"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

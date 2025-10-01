@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Latium (ltx)",
     "website": "https://xone.org/",
     "description": "Latium (ltx)",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x351bD1aB28315E6E5890aFffAD704a65E9BbC505"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

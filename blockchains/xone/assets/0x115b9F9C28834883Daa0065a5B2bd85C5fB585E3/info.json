@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "1.MEME",
     "website": "https://1.meme/home",
     "description": "1.MEME offers the cheapest no-code token creator and instant SwapX listing. Explore popular tokens like FORM token, join pre-sales, and learn how to trade memecoins. 100% legal and secure.",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x115b9F9C28834883Daa0065a5B2bd85C5fB585E3"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

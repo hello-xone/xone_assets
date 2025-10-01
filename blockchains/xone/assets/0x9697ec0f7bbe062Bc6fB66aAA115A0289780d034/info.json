@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Virtual Origin",
     "website": "https://xone.org/",
     "description": "Virtual Origin",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x9697ec0f7bbe062Bc6fB66aAA115A0289780d034"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

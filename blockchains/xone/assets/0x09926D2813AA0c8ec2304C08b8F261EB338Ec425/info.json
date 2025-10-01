@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Syntax",
     "website": "https://xone.org/",
     "description": "Syntax",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x09926D2813AA0c8ec2304C08b8F261EB338Ec425"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

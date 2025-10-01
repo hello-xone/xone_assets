@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Meta Signal",
     "website": "https://xone.org/",
     "description": "Meta Signal",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x7E5Bd1D65426747B977718CDb0C278f6E6A69A65"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

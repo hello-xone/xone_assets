@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "TRON",
     "website": "https://tron.network/",
     "description": "TRON",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0x1b2bE62A0da2Dc8Cb725Fe6cCb8282160D017b9B"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

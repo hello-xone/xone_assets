@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "HyperQuantChain",
     "website": "https://xone.org/",
     "description": "HyperQuantChain",
@@ -10,7 +10,7 @@
     "status": "active",
     "id": "0xe609c92e868EB8FFB905A9B817b39885f489f079"
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "",
     "telegram": "",
     "reddit": "",
@@ -29,7 +29,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "",
     "coinGecko": "",
     "ave": ""

@@ -1,5 +1,5 @@
 {
-  "Basic Information": {
+  "Basic_Information": {
     "name": "Ethereum",
     "website": "https://ethereum.org/",
     "description": "Open source platform to write and distribute decentralized applications.",
@@ -12,7 +12,7 @@
     "status": "active",
     "tags": ["dapp", "staking-native"]
   },
-  "Social Profiles": {
+  "Social_Profiles": {
     "twitter": "https://twitter.com/ethereum",
     "telegram": "",
     "reddit": "https://reddit.com/r/ethereum",
@@ -31,7 +31,7 @@
     "linkedin": "",
     "opensea": ""
   },
-  "Price Data": {
+  "Price_Data": {
     "coinMarketCap": "https://coinmarketcap.com/currencies/ethereum",
     "coinGecko": "https://www.coingecko.com/en/coins/ethereum",
     "ave": ""

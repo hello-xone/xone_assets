@@ -33,7 +33,7 @@ def unknown_fields($obj; $allowed; $prefix):
   ( ( $obj|keys ) - $allowed ) | map($prefix + "." + . + ": unknown field");
 
 # String field checkers
-# - required non-empty (always enforced) for Basic Information
+# - required non-empty (always enforced) for Basic_Information
 def check_required_strings_nonempty($obj; $keys; $prefix):
   reduce $keys[] as $k ([]; . +
     (if $obj|has($k) then
@@ -72,54 +72,54 @@ def validate:
   . as $root
   | ( []
       +
-      # ----- Basic Information (all required & non-empty) -----
-      ( ( $root["Basic Information"] ) as $bi
-        | obj_or_missing($bi; "Basic Information")
+      # ----- Basic_Information (all required & non-empty) -----
+      ( ( $root["Basic_Information"] ) as $bi
+        | obj_or_missing($bi; "Basic_Information")
         +
           ( if $bi != null and ($bi|type) == "object" then
               ( check_required_strings_nonempty($bi;
                   ["name","website","description","whitepaper","explorer","type","symbol","status","email","id"];
-                  "Basic Information")
+                  "Basic_Information")
                 +
-                check_integer($bi; "decimals"; "Basic Information")
+                check_integer($bi; "decimals"; "Basic_Information")
                 +
                 unknown_fields($bi;
                   ["name","website","description","whitepaper","explorer","type","symbol","decimals","status","email","id"];
-                  "Basic Information")
+                  "Basic_Information")
               )
             else [] end )
       )
       +
-      # ----- Social Profiles -----
-      ( ( $root["Social Profiles"] ) as $sp
-        | obj_or_missing($sp; "Social Profiles")
+      # ----- Social_Profiles -----
+      ( ( $root["Social_Profiles"] ) as $sp
+        | obj_or_missing($sp; "Social_Profiles")
         +
           ( if $sp != null and ($sp|type) == "object" then
               ( check_strings($sp;
                   ["twitter","telegram","reddit","discord","slack","instagram","wechat","facebook","medium","github","blog","bitcointalk","youtube","tiktok","forum","linkedin","opensea"];
-                  "Social Profiles")
+                  "Social_Profiles")
                 +
                 unknown_fields($sp;
                   ["twitter","telegram","reddit","discord","slack","instagram","wechat","facebook","medium","github","blog","bitcointalk","youtube","tiktok","forum","linkedin","opensea"];
-                  "Social Profiles")
+                  "Social_Profiles")
               )
             else [] end )
       )
       +
-      # ----- Price Data -----
-      ( ( $root["Price Data"] ) as $pd
-        | obj_or_missing($pd; "Price Data")
+      # ----- Price_Data -----
+      ( ( $root["Price_Data"] ) as $pd
+        | obj_or_missing($pd; "Price_Data")
         +
           ( if $pd != null and ($pd|type) == "object" then
-              ( check_strings($pd; ["coinMarketCap","coinGecko","ave"]; "Price Data")
+              ( check_strings($pd; ["coinMarketCap","coinGecko","ave"]; "Price_Data")
                 +
-                unknown_fields($pd; ["coinMarketCap","coinGecko","ave"]; "Price Data")
+                unknown_fields($pd; ["coinMarketCap","coinGecko","ave"]; "Price_Data")
               )
             else [] end )
       )
       +
       # ----- Unknown top-level sections -----
-      unknown_fields($root; ["Basic Information","Social Profiles","Price Data"]; "root")
+      unknown_fields($root; ["Basic_Information","Social_Profiles","Price_Data"]; "root")
     );
 
 validate
