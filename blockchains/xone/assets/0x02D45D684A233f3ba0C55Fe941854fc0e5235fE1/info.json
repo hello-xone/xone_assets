@@ -1,0 +1,29 @@
+{
+  "Basic_Information": {
+    "id": "0x02D45D684A233f3ba0C55Fe941854fc0e5235fE1",
+    "name": "anyUSDC",
+    "symbol": "USDC",
+    "decimals": 18,
+    "status": "status",
+    "type": "erc-20",
+    "website": "https://www.usdc.com/",
+    "description": "In the world of financial technology, stablecoins are an innovation that bridge the gap between traditional finance and the cryptocurrency ecosystem. Among stablecoins, USDC, which is issued by Circle, is the world's largest regulated1 digital dollar.",
+    "whitepaper": "https://www.usdc.com/learn",
+    "explorer": "https://xonescan.com/",
+    "email": "support@usdc.com"
+  },
+  "Social_Profiles": {
+    "twitter": "https://twitter.com/circle",
+    "telegram": "",
+    "discord": "https://discord.com/invite/buildoncircle",
+    "instagram": "https://www.instagram.com/teamcircle/?hl=en",
+    "github": "",
+    "youtube": "https://www.youtube.com/c/Circlecryptofinance",
+    "linkedin": "https://www.linkedin.com/company/circle-internet-financial/"
+  },
+  "Price_Data": {
+    "coinMarketCap": "https://coinmarketcap.com/currencies/usd-coin/",
+    "coinGecko": "https://www.coingecko.com/en/coins/usdc",
+    "ave": ""
+  }
+}
