@@ -1,0 +1,32 @@
+{
+  "Basic_Information": {
+    "id": "0x4eabBabEbbb358660CA080E8F2bB09e4a911aB4e",
+    "name": "Wrapped XOC",
+    "symbol": "WXOC",
+    "decimals": 18,
+    "status": "status",
+    "type": "erc-20",
+    "website": "https://xone.org",
+    "description": "This token is the official native wrapped token of Xone Chian.\n\nXone Chain is a decentralized Layer-1 blockchain platform based on the Ethereum protocol and is also the leading Behavioral Value Incentive blockchain (BVI). On Xone Chain, every interaction creates value, and every contribution is rewarded. Through its unique BVI system, users' behaviors and contributions are accumulated in real-time and converted into rewards.",
+    "whitepaper": "https://docs.xone.org/study/wiki",
+    "explorer": "https://xonescan.com/",
+    "email": "support@xone.org"
+  },
+  "Social_Profiles": {
+    "twitter": "https://x.com/xone_chain",
+    "telegram": "https://t.me/hello_xonechain",
+    "reddit": "https://www.reddit.com/r/XoneChain/",
+    "discord": "https://discord.com/invite/Du9y2GHV",
+    "medium": "https://medium.com/@xone_chain",
+    "github": "https://github.com/hello-xone/",
+    "blog": "https://docs.xone.org/blog",
+    "youtube": "https://www.youtube.com/@HelloXone",
+    "tiktok": "https://www.tiktok.com/@xone_chain",
+    "forum": "https://forum.xone.org/"
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "https://www.coingecko.com/en/chains/xone",
+    "ave": "https://ave.ai/token/0x4eabbabebbb358660ca080e8f2bb09e4a911ab4e-xone?from=Pump"
+  }
+}
