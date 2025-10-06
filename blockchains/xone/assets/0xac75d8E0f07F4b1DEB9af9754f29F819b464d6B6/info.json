@@ -8,7 +8,9 @@
     "symbol": "cyb",
     "decimals": 18,
     "status": "active",
-    "id": "0xac75d8E0f07F4b1DEB9af9754f29F819b464d6B6"
+    "id": "0xac75d8E0f07F4b1DEB9af9754f29F819b464d6B6",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

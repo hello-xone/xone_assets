@@ -8,7 +8,9 @@
     "symbol": "XAI",
     "decimals": 18,
     "status": "active",
-    "id": "0x0e9CA04dCC38DdD2205D637a4B71Bc01e5504251"
+    "id": "0x0e9CA04dCC38DdD2205D637a4B71Bc01e5504251",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

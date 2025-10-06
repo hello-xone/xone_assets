@@ -8,7 +8,9 @@
     "symbol": "BNB",
     "decimals": 18,
     "status": "active",
-    "id": "0xE3159D4753C4126aFe1F5cCaf4D90ae2524Bf7E9"
+    "id": "0xE3159D4753C4126aFe1F5cCaf4D90ae2524Bf7E9",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

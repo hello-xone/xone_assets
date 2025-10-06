@@ -8,7 +8,9 @@
     "symbol": "IMCube",
     "decimals": 18,
     "status": "active",
-    "id": "0x9DA3Ae0069bb7dd8ef7869fA544cFf34F71A6F92"
+    "id": "0x9DA3Ae0069bb7dd8ef7869fA544cFf34F71A6F92",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

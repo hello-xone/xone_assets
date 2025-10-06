@@ -8,7 +8,9 @@
     "symbol": "Yisc",
     "decimals": 18,
     "status": "active",
-    "id": "0x4Af7CEB156754c9235EFb1CE9990305b34db1D11"
+    "id": "0x4Af7CEB156754c9235EFb1CE9990305b34db1D11",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

@@ -8,7 +8,9 @@
     "symbol": "ltx",
     "decimals": 18,
     "status": "active",
-    "id": "0x351bD1aB28315E6E5890aFffAD704a65E9BbC505"
+    "id": "0x351bD1aB28315E6E5890aFffAD704a65E9BbC505",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

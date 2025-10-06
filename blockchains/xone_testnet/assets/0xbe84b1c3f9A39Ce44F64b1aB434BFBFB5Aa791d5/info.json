@@ -1,14 +1,16 @@
 {
   "Basic_Information": {
     "name": "PEPE Token",
-    "website": "",
+    "website": "https://",
     "description": "big meme",
     "explorer": "https://testnet.xscscan.com/",
     "type": "ERC20",
     "symbol": "PEPE",
     "decimals": 18,
     "status": "active",
-    "id": "0xbe84b1c3f9A39Ce44F64b1aB434BFBFB5Aa791d5"
+    "id": "0xbe84b1c3f9A39Ce44F64b1aB434BFBFB5Aa791d5",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",
@@ -35,3 +37,4 @@
     "ave": ""
   }
 }
+

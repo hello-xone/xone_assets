@@ -8,7 +8,9 @@
     "symbol": "TRX",
     "decimals": 6,
     "status": "active",
-    "id": "0x27b88D1F44871519c52f08ffB3eccF22A135A326"
+    "id": "0x27b88D1F44871519c52f08ffB3eccF22A135A326",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

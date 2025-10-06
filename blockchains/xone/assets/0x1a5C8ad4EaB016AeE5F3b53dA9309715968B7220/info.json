@@ -8,7 +8,9 @@
     "symbol": "NUTX",
     "decimals": 18,
     "status": "active",
-    "id": "0x1a5C8ad4EaB016AeE5F3b53dA9309715968B7220"
+    "id": "0x1a5C8ad4EaB016AeE5F3b53dA9309715968B7220",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

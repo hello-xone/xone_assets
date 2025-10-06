@@ -8,7 +8,9 @@
     "symbol": "XO",
     "decimals": 18,
     "status": "active",
-    "id": "0x3698e12EDaF7C734117DFAA2f1692541e80Af908"
+    "id": "0x3698e12EDaF7C734117DFAA2f1692541e80Af908",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

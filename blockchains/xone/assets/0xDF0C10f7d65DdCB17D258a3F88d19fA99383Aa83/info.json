@@ -8,7 +8,9 @@
     "symbol": "bwoof",
     "decimals": 18,
     "status": "active",
-    "id": "0xDF0C10f7d65DdCB17D258a3F88d19fA99383Aa83"
+    "id": "0xDF0C10f7d65DdCB17D258a3F88d19fA99383Aa83",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

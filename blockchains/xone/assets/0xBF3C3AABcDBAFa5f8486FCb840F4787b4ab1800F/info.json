@@ -8,7 +8,9 @@
     "symbol": "FC",
     "decimals": 18,
     "status": "active",
-    "id": "0xBF3C3AABcDBAFa5f8486FCb840F4787b4ab1800F"
+    "id": "0xBF3C3AABcDBAFa5f8486FCb840F4787b4ab1800F",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

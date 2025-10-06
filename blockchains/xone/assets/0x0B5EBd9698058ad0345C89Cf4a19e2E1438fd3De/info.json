@@ -8,7 +8,9 @@
     "symbol": "LifeO",
     "decimals": 18,
     "status": "active",
-    "id": "0x0B5EBd9698058ad0345C89Cf4a19e2E1438fd3De"
+    "id": "0x0B5EBd9698058ad0345C89Cf4a19e2E1438fd3De",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

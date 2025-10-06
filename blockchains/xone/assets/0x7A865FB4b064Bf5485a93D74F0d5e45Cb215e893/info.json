@@ -8,7 +8,9 @@
     "symbol": "gala",
     "decimals": 18,
     "status": "active",
-    "id": "0x7A865FB4b064Bf5485a93D74F0d5e45Cb215e893"
+    "id": "0x7A865FB4b064Bf5485a93D74F0d5e45Cb215e893",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

@@ -8,7 +8,9 @@
     "symbol": "VOR",
     "decimals": 18,
     "status": "active",
-    "id": "0x9697ec0f7bbe062Bc6fB66aAA115A0289780d034"
+    "id": "0x9697ec0f7bbe062Bc6fB66aAA115A0289780d034",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

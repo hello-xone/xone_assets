@@ -8,7 +8,9 @@
     "symbol": "NBLN",
     "decimals": 18,
     "status": "active",
-    "id": "0x9EF7bA905843F484d84afdbB0E168669EDF3aBdE"
+    "id": "0x9EF7bA905843F484d84afdbB0E168669EDF3aBdE",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

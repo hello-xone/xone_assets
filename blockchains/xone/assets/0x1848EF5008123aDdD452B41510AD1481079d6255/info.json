@@ -8,7 +8,9 @@
     "symbol": "xcard",
     "decimals": 18,
     "status": "active",
-    "id": "0x1848EF5008123aDdD452B41510AD1481079d6255"
+    "id": "0x1848EF5008123aDdD452B41510AD1481079d6255",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

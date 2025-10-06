@@ -8,7 +8,9 @@
     "symbol": "WXOC",
     "decimals": 18,
     "status": "active",
-    "id": "0x593708cF1606C2328fd6f4c5694fe642174eb1AB"
+    "id": "0x593708cF1606C2328fd6f4c5694fe642174eb1AB",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

@@ -8,7 +8,9 @@
     "symbol": "ats",
     "decimals": 18,
     "status": "active",
-    "id": "0x3FB6EBCb91372A5E18744566544c326633758d47"
+    "id": "0x3FB6EBCb91372A5E18744566544c326633758d47",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

@@ -8,7 +8,9 @@
     "symbol": "USDT",
     "decimals": 6,
     "status": "active",
-    "id": "0xdCAa74bF71DCDe6d642137c69ece895b8e2F29A2"
+    "id": "0xdCAa74bF71DCDe6d642137c69ece895b8e2F29A2",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

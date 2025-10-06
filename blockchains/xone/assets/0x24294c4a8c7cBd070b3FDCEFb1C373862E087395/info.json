@@ -8,7 +8,9 @@
     "symbol": "hnx",
     "decimals": 18,
     "status": "active",
-    "id": "0x24294c4a8c7cBd070b3FDCEFb1C373862E087395"
+    "id": "0x24294c4a8c7cBd070b3FDCEFb1C373862E087395",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

@@ -8,7 +8,9 @@
     "symbol": "CBB",
     "decimals": 18,
     "status": "active",
-    "id": "0xE3d77d3aa72063A3C271Fa7f176A376f24788888"
+    "id": "0xE3d77d3aa72063A3C271Fa7f176A376f24788888",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

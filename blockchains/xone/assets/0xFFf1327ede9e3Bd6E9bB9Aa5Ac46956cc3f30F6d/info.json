@@ -8,7 +8,9 @@
     "symbol": "Ink",
     "decimals": 18,
     "status": "active",
-    "id": "0xFFf1327ede9e3Bd6E9bB9Aa5Ac46956cc3f30F6d"
+    "id": "0xFFf1327ede9e3Bd6E9bB9Aa5Ac46956cc3f30F6d",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

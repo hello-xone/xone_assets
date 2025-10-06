@@ -8,7 +8,9 @@
     "symbol": "babyBoss",
     "decimals": 18,
     "status": "active",
-    "id": "0x38293a46F1616788E54872c4354426F1Bb90D923"
+    "id": "0x38293a46F1616788E54872c4354426F1Bb90D923",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

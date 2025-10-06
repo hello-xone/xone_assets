@@ -8,7 +8,9 @@
     "symbol": "TOTF",
     "decimals": 18,
     "status": "active",
-    "id": "0xB7Cd86b583fD0828B704017A684462E5387b1C12"
+    "id": "0xB7Cd86b583fD0828B704017A684462E5387b1C12",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",

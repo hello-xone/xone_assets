@@ -8,7 +8,9 @@
     "symbol": "csp",
     "decimals": 18,
     "status": "active",
-    "id": "0x0eBCC22C05b49c8c40A97bdB6bF9702fb53d9166"
+    "id": "0x0eBCC22C05b49c8c40A97bdB6bF9702fb53d9166",
+    "whitepaper": "https://",
+    "email": "mangosago@xone.org"
   },
   "Social_Profiles": {
     "twitter": "",
