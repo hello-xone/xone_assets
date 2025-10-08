@@ -1,0 +1,37 @@
+{
+  "Basic_Information": {
+    "name": "Xone Winner",
+    "website": "https://xone.org/",
+    "description": "Xone Winner",
+    "explorer": "https://xonescan.com/",
+    "type": "ERC20",
+    "symbol": "XWC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x2799779453E89C86741E1AC9623E5A73469acF15"
+  },
+  "Social_Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
+}
