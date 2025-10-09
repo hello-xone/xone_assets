@@ -1,16 +1,14 @@
 {
   "Basic_Information": {
     "name": "Broccoli",
-    "website": "https://",
+    "website": "",
     "description": "BSC chain Famous meme",
     "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "Broccoli",
     "decimals": 18,
     "status": "active",
-    "id": "0x635594e99703ef482b54cCde27445710283205E9",
-    "whitepaper": "https://",
-    "email": "mangosago@xone.org"
+    "id": "0x635594e99703ef482b54cCde27445710283205E9"
   },
   "Social_Profiles": {
     "twitter": "",
@@ -37,4 +35,3 @@
     "ave": ""
   }
 }
-

@@ -1,16 +1,14 @@
 {
   "Basic_Information": {
     "name": "Mongo Work",
-    "website": "https://",
+    "website": "",
     "description": "Let us welcome the mango era together!",
     "explorer": "https://testnet.xscscan.com/",
     "type": "ERC20",
     "symbol": "Mongo Work",
     "decimals": 18,
     "status": "active",
-    "id": "0x65E54889879474646B5B24cDC57F99d475246039",
-    "whitepaper": "https://",
-    "email": "mangosago@xone.org"
+    "id": "0x65E54889879474646B5B24cDC57F99d475246039"
   },
   "Social_Profiles": {
     "twitter": "",
@@ -37,4 +35,3 @@
     "ave": ""
   }
 }
-

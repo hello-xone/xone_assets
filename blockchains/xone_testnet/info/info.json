@@ -10,11 +10,7 @@
     "type": "coin",
     "decimals": 18,
     "status": "active",
-    "tags": [
-      "dapp",
-      "staking-native"
-    ],
-    "email": "mangosago@xone.org"
+    "tags": ["dapp", "staking-native"]
   },
   "Social_Profiles": {
     "twitter": "https://twitter.com/ethereum",
