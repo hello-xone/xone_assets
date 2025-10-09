@@ -1,0 +1,74 @@
+name: validate-token-info
+
+on:
+  pull_request:
+    paths:
+      - "blockchains/**/info.json"
+      - "dapps/**/info.json"
+      - "cmd/**/info.json"
+      - "internal/**/info.json"
+      - "tools/**/info.json"
+      - "validate_info_json.sh"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Detect changed info.json files
+        id: changed
+        run: |
+          echo '🔍 Detecting changed info.json files'
+          git fetch origin "${{ github.event.pull_request.base.ref }}" --depth=1
+          mapfile -t files < <(git diff --name-only --diff-filter=AMRT "origin/${{ github.event.pull_request.base.ref }}"...HEAD | grep -E 'info\.json$' || true)
+          if [[ ${#files[@]} -eq 0 ]]; then
+            echo 'ℹ️ No info.json files changed in this PR'
+            echo 'has_changes=false' >> "$GITHUB_OUTPUT"
+          else
+            printf '%s\n' "${files[@]}"
+            {
+              echo 'has_changes=true'
+              echo 'files<<EOF'
+              printf '%s\n' "${files[@]}"
+              echo 'EOF'
+            } >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate changed info.json files
+        if: steps.changed.outputs.has_changes == 'true'
+        run: |
+          echo '🔍 Running validator on changed files'
+          chmod +x validate_info_json.sh
+          mapfile -t files < <(printf '%s\n' "${{ steps.changed.outputs.files }}")
+          if [[ ${#files[@]} -eq 0 ]]; then
+            echo 'ℹ️ No files detected after parsing output'
+            exit 0
+          fi
+          ./validate_info_json.sh "${files[@]}"
+
+      - name: Summarize results
+        if: always()
+        run: |
+          {
+            echo '## Validation summary'
+            if [[ "${{ steps.changed.outputs.has_changes }}" != 'true' ]]; then
+              echo 'No info.json files changed in this PR.'
+            else
+              if [[ "${{ job.status }}" == 'success' ]]; then
+                echo 'All changed info.json files passed validation.'
+              else
+                echo 'Some changed info.json files failed validation.'
+              fi
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+

@@ -1,33 +1,23 @@
 {
   "Basic_Information": {
+    "id": "0x26Df50102098c19AB4374b2D5572A1BcdE38F160",
     "name": "Huione USD",
-    "website": "https://huione.money/en/home",
-    "description": "A stablecoin pegged 1:1 to the US Dollar launched by Huione Labs under Huione Group.It aims to reduce cryptocurrency market volatility, offering users a secure, unfrozen, and reliable stablecoin.",
-    "explorer": "https://xonescan.com/",
-    "type": "ERC20",
     "symbol": "USDH",
-    "decimals": 18,
-    "status": "active",
-    "id": "0x26df50102098C19aB4374b2D5572a1bCde38f160"
+    "decimals": 6,
+    "status": "status",
+    "type": "erc-20",
+    "website": "https://huione.money",
+    "description": "A stablecoin pegged 1:1 to the US Dollar launched by Huione Labs under Huione Group.It aims to reduce cryptocurrency market volatility, offering users a secure, unfrozen, and reliable stablecoin.",
+    "whitepaper": "https://huione.money/",
+    "explorer": "https://xonescan.com/",
+    "email": "support@huione.money"
   },
   "Social_Profiles": {
-    "twitter": "",
-    "telegram": "",
-    "reddit": "",
-    "discord": "",
-    "slack": "",
-    "instagram": "",
-    "wechat": "",
-    "facebook": "",
-    "medium": "",
-    "github": "",
-    "blog": "",
-    "bitcointalk": "",
-    "youtube": "",
-    "tiktok": "",
-    "forum": "",
-    "linkedin": "",
-    "opensea": ""
+    "twitter": "https://x.com/HuioneUSD",
+    "telegram": "https://t.me/HUIONEUSDH",
+    "discord": "https://discord.com/invite/UnfEPVaFCB",
+    "medium": "https://medium.com/@HuioneUSD",
+    "github": "https://github.com/huioneusd/usdh"
   },
   "Price_Data": {
     "coinMarketCap": "",

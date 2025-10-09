@@ -1,37 +1,31 @@
 {
   "Basic_Information": {
+    "id": "0xb575796D293F37F112F3694b8Ff48D711fe67ec7",
     "name": "Tether USD",
-    "website": "https://tether.to",
-    "description": "Tether USD",
-    "explorer": "https://xonescan.com/",
-    "type": "ERC20",
     "symbol": "USDT",
     "decimals": 6,
-    "status": "active",
-    "id": "0xb575796D293f37F112f3694b8ff48D711FE67EC7"
+    "status": "status",
+    "type": "erc-20",
+    "website": "https://tether.to/en/",
+    "description": "Launched in 2014, Tether tokens (USD₮) pioneered the stablecoin model and are the most widely traded. Tether tokens offer the stability and simplicity of fiat currencies coupled with the innovative nature of blockchain technology, representing a perfect combination of both worlds.",
+    "whitepaper": "https://tether.to/en/how-it-works",
+    "explorer": "https://xonescan.com/",
+    "email": "support@tether.to"
   },
   "Social_Profiles": {
-    "twitter": "",
-    "telegram": "",
-    "reddit": "",
+    "twitter": "https://x.com/Tether_to/",
+    "telegram": "https://t.me/tether",
+    "reddit": "https://www.reddit.com/r/Tether/",
     "discord": "",
-    "slack": "",
-    "instagram": "",
-    "wechat": "",
-    "facebook": "",
-    "medium": "",
+    "instagram": "https://www.instagram.com/_tether_/",
+    "facebook": "https://www.facebook.com/tether.to",
     "github": "",
-    "blog": "",
-    "bitcointalk": "",
-    "youtube": "",
-    "tiktok": "",
-    "forum": "",
-    "linkedin": "",
-    "opensea": ""
+    "youtube": "https://www.youtube.com/@tether_io",
+    "linkedin": "https://www.linkedin.com/company/tether"
   },
   "Price_Data": {
-    "coinMarketCap": "",
-    "coinGecko": "",
+    "coinMarketCap": "https://coinmarketcap.com/currencies/tether/",
+    "coinGecko": "https://www.coingecko.com/en/coins/tether",
     "ave": ""
   }
 }

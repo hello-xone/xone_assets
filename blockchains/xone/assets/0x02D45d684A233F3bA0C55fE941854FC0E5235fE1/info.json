@@ -1,39 +1,29 @@
 {
   "Basic_Information": {
-    "name": "USD Coin",
-    "website": "https://www.usdc.com/",
-    "description": "Circle Internet Group",
-    "whitepaper": "https://usdc.com/whitepaper",
-    "explorer": "https://xonescan.com/",
-    "type": "ERC20",
+    "id": "0x02D45D684A233f3ba0C55Fe941854fc0e5235fE1",
+    "name": "anyUSDC",
     "symbol": "USDC",
     "decimals": 18,
-    "status": "active",
-    "email": "mangosago@xone.org",
-    "id": "0x02D45d684A233F3bA0C55fE941854FC0E5235fE1"
+    "status": "status",
+    "type": "erc-20",
+    "website": "https://www.usdc.com/",
+    "description": "In the world of financial technology, stablecoins are an innovation that bridge the gap between traditional finance and the cryptocurrency ecosystem. Among stablecoins, USDC, which is issued by Circle, is the world's largest regulated1 digital dollar.",
+    "whitepaper": "https://www.usdc.com/learn",
+    "explorer": "https://xonescan.com/",
+    "email": "support@usdc.com"
   },
   "Social_Profiles": {
-    "twitter": "https://twitter.com/USDC",
-    "telegram": "https://t.me/usdcofficial",
-    "reddit": "https://www.reddit.com/r/USDC/",
-    "discord": "https://discord.com/invite/usdc",
-    "slack": "https://circleci.com/slack",
-    "instagram": "https://www.instagram.com/usdcofficial/",
-    "wechat": "https://www.usdc.com/en-us/wechat",
-    "facebook": "https://www.facebook.com/usdcofficial",
-    "medium": "https://medium.com/usdc",
-    "github": "https://medium.com/usdc",
-    "blog": "https://www.circle.com/en/blog",
-    "bitcointalk": "https://bitcointalk.org/index.php?topic=5243801.0",
-    "youtube": "https://www.youtube.com/c/USDc",
-    "tiktok": "https://www.tiktok.com/@usdcofficial",
-    "forum": "https://community.circle.com/",
-    "linkedin": "https://www.linkedin.com/company/usd-coin/",
-    "opensea": "https://opensea.io/collection/usdc"
+    "twitter": "https://twitter.com/circle",
+    "telegram": "",
+    "discord": "https://discord.com/invite/buildoncircle",
+    "instagram": "https://www.instagram.com/teamcircle/?hl=en",
+    "github": "",
+    "youtube": "https://www.youtube.com/c/Circlecryptofinance",
+    "linkedin": "https://www.linkedin.com/company/circle-internet-financial/"
   },
   "Price_Data": {
-    "coinMarketCap": "https://opensea.io/collection/usdc",
-    "coinGecko": "https://opensea.io/collection/usdc",
-    "ave": "https://opensea.io/collection/usdc"
+    "coinMarketCap": "https://coinmarketcap.com/currencies/usd-coin/",
+    "coinGecko": "https://www.coingecko.com/en/coins/usdc",
+    "ave": ""
   }
 }
