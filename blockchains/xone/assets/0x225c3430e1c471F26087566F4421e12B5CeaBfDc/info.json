@@ -15,25 +15,25 @@
   "Social_Profiles": {
     "twitter": "https://xone.org",
     "telegram": "https://xone.org",
-    "reddit": null,
+    "reddit": "",
     "discord": "https://xone.org",
     "slack": "https://xone.plus",
     "instagram": "https://xone.plus",
-    "wechat": null,
-    "facebook": null,
-    "medium": null,
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
     "github": "https://xone.org",
-    "blog": null,
-    "bitcointalk": null,
-    "youtube": null,
-    "tiktok": null,
-    "forum": null,
-    "linkedin": null,
-    "opensea": null
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
   },
   "Price_Data": {
     "coinMarketCap": "https://xone.org",
     "coinGecko": "https://xone.org",
-    "ave": null
+    "ave": ""
   }
 }
