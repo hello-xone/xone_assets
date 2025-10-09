@@ -3,18 +3,50 @@ set -euo pipefail
 
 # Usage:
 #   ./validate_info_json.sh [--strict] [paths...]
+#   ./validate_info_json.sh --scan-all <path> [--scan-all <path> ...]
+#
+# Examples:
+#   # Scan all info.json under default roots
+#   ./validate_info_json.sh
+#
+#   # Scan specific info.json files (for PR workflow)
+#   ./validate_info_json.sh blockchains/xone/assets/0x123.../info.json
+#
+#   # Scan all info.json under custom directories
+#   ./validate_info_json.sh blockchains/xone/assets
+#
 DEFAULT_ROOTS=("blockchains/xone/assets" "blockchains/xone_testnet/assets")
 
 STRICT=false
 ROOTS=()
+SCAN_PATHS=()
 
-for arg in "$@"; do
-  case "$arg" in
-    --strict) STRICT=true ;;
-    *) ROOTS+=("$arg") ;;
+while (($#)); do
+  case "$1" in
+    --strict)
+      STRICT=true
+      ;;
+    --scan-all)
+      shift
+      if [[ $# -eq 0 ]]; then
+        echo "Error: --scan-all requires a path argument" >&2
+        exit 1
+      fi
+      SCAN_PATHS+=("$1")
+      ;;
+    --scan-all=*)
+      SCAN_PATHS+=("${1#*=}")
+      ;;
+    *)
+      ROOTS+=("$1")
+      ;;
   esac
+  shift || true
 done
-[[ ${#ROOTS[@]} -eq 0 ]] && ROOTS=("${DEFAULT_ROOTS[@]}")
+
+if [[ ${#ROOTS[@]} -eq 0 && ${#SCAN_PATHS[@]} -eq 0 ]]; then
+  ROOTS=("${DEFAULT_ROOTS[@]}")
+fi
 
 command -v jq >/dev/null 2>&1 || { echo "Error: jq is required." >&2; exit 127; }
 
@@ -137,7 +169,30 @@ validate
 JQ
 
 shopt -s nullglob
-mapfile -t FILES < <(find "${ROOTS[@]}" -type f -name 'info.json' -print)
+
+# If ROOTS contains file paths (not directories), scan those files directly
+# Otherwise, find all info.json files under the root directories
+FILES=()
+
+collect_from_path() {
+  local path="$1"
+  if [[ -f "$path" ]]; then
+    if [[ "$(basename "$path")" == "info.json" ]]; then
+      FILES+=("$path")
+    fi
+  elif [[ -d "$path" ]]; then
+    mapfile -t found_files < <(find "$path" -type f -name 'info.json' -print | sort)
+    FILES+=("${found_files[@]}")
+  fi
+}
+
+for scan in "${SCAN_PATHS[@]}"; do
+  collect_from_path "$scan"
+done
+
+for root in "${ROOTS[@]}"; do
+  collect_from_path "$root"
+done
 
 if [[ ${#FILES[@]} -eq 0 ]]; then
   echo "No info.json files found under: ${ROOTS[*]}"

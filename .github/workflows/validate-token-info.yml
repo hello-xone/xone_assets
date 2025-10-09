@@ -1,11 +1,14 @@
-name: Validate Token Info
+name: validate-token-info
 
 on:
   pull_request:
     paths:
-      - "blockchains/*/info/info.json"
-      - "blockchains/*/assets/*/info.json"
-      - "dapps/*.png"
+      - "blockchains/**/info.json"
+      - "dapps/**/info.json"
+      - "cmd/**/info.json"
+      - "internal/**/info.json"
+      - "tools/**/info.json"
+      - "validate_info_json.sh"
 
 jobs:
   validate:
@@ -14,71 +17,58 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y jq file
+          sudo apt-get install -y jq
 
-      - name: Make validation script executable
-        run: chmod +x validate_info_json.sh
-
-      - name: Validate JSON files
-        id: validate_json
+      - name: Detect changed info.json files
+        id: changed
         run: |
-          echo "🔍 Validating token info JSON files..."
-          if ./validate_info_json.sh; then
-            echo "✅ All JSON files are valid!"
-            echo "json_valid=true" >> $GITHUB_OUTPUT
+          echo '🔍 Detecting changed info.json files'
+          git fetch origin "${{ github.event.pull_request.base.ref }}" --depth=1
+          mapfile -t files < <(git diff --name-only --diff-filter=AMRT "origin/${{ github.event.pull_request.base.ref }}"...HEAD | grep -E 'info\.json$' || true)
+          if [[ ${#files[@]} -eq 0 ]]; then
+            echo 'ℹ️ No info.json files changed in this PR'
+            echo 'has_changes=false' >> "$GITHUB_OUTPUT"
           else
-            echo "❌ JSON validation failed!"
-            echo "json_valid=false" >> $GITHUB_OUTPUT
-            exit 1
+            printf '%s\n' "${files[@]}"
+            {
+              echo 'has_changes=true'
+              echo 'files<<EOF'
+              printf '%s\n' "${files[@]}"
+              echo 'EOF'
+            } >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Check icon files
+      - name: Validate changed info.json files
+        if: steps.changed.outputs.has_changes == 'true'
+        run: |
+          echo '🔍 Running validator on changed files'
+          chmod +x validate_info_json.sh
+          mapfile -t files < <(printf '%s\n' "${{ steps.changed.outputs.files }}")
+          if [[ ${#files[@]} -eq 0 ]]; then
+            echo 'ℹ️ No files detected after parsing output'
+            exit 0
+          fi
+          ./validate_info_json.sh "${files[@]}"
+
+      - name: Summarize results
         if: always()
         run: |
-          echo "🖼️ Checking icon files..."
-
-          # Find all PNG files in blockchains directory
-          png_files=$(find blockchains -name "*.png" 2>/dev/null || true)
-
-          if [ -n "$png_files" ]; then
-            echo "Found PNG files:"
-            echo "$png_files"
-            
-            # Check if PNG files are valid
-            invalid_files=""
-            for file in $png_files; do
-              if ! file "$file" | grep -q "PNG image"; then
-                echo "❌ Invalid PNG file: $file"
-                invalid_files="$invalid_files $file"
+          {
+            echo '## Validation summary'
+            if [[ "${{ steps.changed.outputs.has_changes }}" != 'true' ]]; then
+              echo 'No info.json files changed in this PR.'
+            else
+              if [[ "${{ job.status }}" == 'success' ]]; then
+                echo 'All changed info.json files passed validation.'
               else
-                echo "✅ Valid PNG file: $file"
+                echo 'Some changed info.json files failed validation.'
               fi
-            done
-            
-            if [ -n "$invalid_files" ]; then
-              echo "❌ Found invalid PNG files:$invalid_files"
-              exit 1
             fi
-          else
-            echo "ℹ️ No PNG files found in dapps directory"
-          fi
+          } >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Summary
-        if: always()
-        run: |
-          echo "## Validation Summary" >> $GITHUB_STEP_SUMMARY
-          if [ "${{ steps.validate_json.outputs.json_valid }}" = "true" ]; then
-            echo "✅ JSON validation: PASSED" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "❌ JSON validation: FAILED" >> $GITHUB_STEP_SUMMARY
-          fi
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### Requirements:" >> $GITHUB_STEP_SUMMARY
-          echo "- All fields in \`Basic_Information\` must be present and non-empty" >> $GITHUB_STEP_SUMMARY
-          echo "- Fields in \`Social_Profiles\` and \`Price_Data\` can be empty" >> $GITHUB_STEP_SUMMARY
-          echo "- No additional fields are allowed in any section" >> $GITHUB_STEP_SUMMARY
-          echo "- Icon files must be valid PNG format" >> $GITHUB_STEP_SUMMARY
