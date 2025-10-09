@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Usage:
 #   ./validate_info_json.sh [--strict] [paths...]
-DEFAULT_ROOTS=("blockchains/xone" "blockchains/xone_testnet")
+DEFAULT_ROOTS=("blockchains/xone/assets" "blockchains/xone_testnet/assets")
 
 STRICT=false
 ROOTS=()
@@ -24,13 +24,9 @@ def type_is($v; $t): (( $v|type ) == $t);
 
 # Section guards
 def obj_or_missing($v; $prefix):
-  if $v == null then err($prefix+": missing section")
+  if $v == null then err("ERROR: "+$prefix+": missing section")
   elif ($v|type) != "object" then err($prefix+": not object")
   else [] end;
-
-# Unknown-field reporter
-def unknown_fields($obj; $allowed; $prefix):
-  ( ( $obj|keys ) - $allowed ) | map($prefix + "." + . + ": unknown field");
 
 # String field checkers
 # - required non-empty (always enforced) for Basic_Information
@@ -41,7 +37,7 @@ def check_required_strings_nonempty($obj; $keys; $prefix):
            then (if ($obj[$k] == "") then err($prefix+"."+$k+": empty") else [] end)
            else err($prefix+"."+$k+": not string")
          end)
-     else err($prefix+"."+$k+": missing")
+     else err("ERROR: "+$prefix+"."+$k+": missing")
      end)
   );
 
@@ -53,7 +49,31 @@ def check_strings($obj; $keys; $prefix):
            then (if $strict and ($obj[$k] == "") then err($prefix+"."+$k+": empty") else [] end)
            else err($prefix+"."+$k+": not string")
          end)
-     else err($prefix+"."+$k+": missing")
+     else err("ERROR: "+$prefix+"."+$k+": missing")
+     end)
+  );
+
+# - optional string fields (can be missing or empty)
+def check_optional_strings($obj; $keys; $prefix):
+  reduce $keys[] as $k ([]; . +
+    (if $obj|has($k) then
+       ( if type_is($obj[$k]; "string")
+           then []
+           else err($prefix+"."+$k+": not string")
+         end)
+     else []
+     end)
+  );
+
+# - optional array fields
+def check_optional_arrays($obj; $keys; $prefix):
+  reduce $keys[] as $k ([]; . +
+    (if $obj|has($k) then
+       ( if type_is($obj[$k]; "array")
+           then []
+           else err($prefix+"."+$k+": not array")
+         end)
+     else []
      end)
   );
 
@@ -65,7 +85,7 @@ def check_integer($obj; $key; $prefix):
         else err($prefix+"."+$key+": not integer number")
       end )
   else
-    err($prefix+"."+$key+": missing")
+    err("ERROR: "+$prefix+"."+$key+": missing")
   end;
 
 def validate:
@@ -83,9 +103,9 @@ def validate:
                 +
                 check_integer($bi; "decimals"; "Basic_Information")
                 +
-                unknown_fields($bi;
-                  ["name","website","description","whitepaper","explorer","type","symbol","decimals","status","email","id"];
-                  "Basic_Information")
+                check_optional_strings($bi; ["research"]; "Basic_Information")
+                +
+                check_optional_arrays($bi; ["tags"]; "Basic_Information")
               )
             else [] end )
       )
@@ -95,11 +115,7 @@ def validate:
         | obj_or_missing($sp; "Social_Profiles")
         +
           ( if $sp != null and ($sp|type) == "object" then
-              ( check_strings($sp;
-                  ["twitter","telegram","reddit","discord","slack","instagram","wechat","facebook","medium","github","blog","bitcointalk","youtube","tiktok","forum","linkedin","opensea"];
-                  "Social_Profiles")
-                +
-                unknown_fields($sp;
+              ( check_optional_strings($sp;
                   ["twitter","telegram","reddit","discord","slack","instagram","wechat","facebook","medium","github","blog","bitcointalk","youtube","tiktok","forum","linkedin","opensea"];
                   "Social_Profiles")
               )
@@ -111,15 +127,9 @@ def validate:
         | obj_or_missing($pd; "Price_Data")
         +
           ( if $pd != null and ($pd|type) == "object" then
-              ( check_strings($pd; ["coinMarketCap","coinGecko","ave"]; "Price_Data")
-                +
-                unknown_fields($pd; ["coinMarketCap","coinGecko","ave"]; "Price_Data")
-              )
+              ( check_optional_strings($pd; ["coinMarketCap","coinGecko","ave"]; "Price_Data") )
             else [] end )
       )
-      +
-      # ----- Unknown top-level sections -----
-      unknown_fields($root; ["Basic_Information","Social_Profiles","Price_Data"]; "root")
     );
 
 validate
