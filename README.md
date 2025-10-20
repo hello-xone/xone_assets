@@ -51,7 +51,7 @@ Create a JSON file with the following structure. **All fields in "Basic_Informat
     "symbol": "USDC",
     "decimals": 18,
     "status": "active",
-    "email": "mangosago@xone.org",
+    "email": "support@example.com",
     "id": "0x02D45d684A233F3bA0C55fE941854FC0E5235fE1"
   },
   "Social_Profiles": {

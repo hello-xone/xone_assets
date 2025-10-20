@@ -1,0 +1,37 @@
+{
+  "Basic_Information": {
+    "name": "Initial RWA Offering Token",
+    "website": "https://ironetwork.com",
+    "description": "IRO is the governance and value-capture token of the IRO ecosystem. Its value is driven by the platform’s real-world cash flow through a three-pronged mechanism: Staking: Stake IRO to receive cash flow distributions denominated in USDT/USDX. Buyback and Burn: A portion of the platform’s net revenue is used to buy back and burn IRO, creating scarcity and price elasticity. Governance and Utility: IRO grants governance rights and scenario-based benefits (e.g., allocation for IRO launchpad offerings, fee discounts, VIP/NFT privileges, etc.).",
+    "explorer": "https://xonescan.com/",
+    "type": "ERC20",
+    "symbol": "IRO",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x9218a225dFb65FA3C1ab5a8f425D279A217fD4a1"
+  },
+  "Social_Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
+}
