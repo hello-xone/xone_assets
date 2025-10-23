@@ -1,0 +1,37 @@
+{
+  "Basic_Information": {
+    "name": "CUSD Token",
+    "website": "",
+    "description": "CUSD Token",
+    "explorer": "https://xonescan.com/",
+    "type": "ERC20",
+    "symbol": "CUSD",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xf2496F74BB730Bc8f81EC8f564cB6525b4C1bcb3"
+  },
+  "Social_Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
+}
