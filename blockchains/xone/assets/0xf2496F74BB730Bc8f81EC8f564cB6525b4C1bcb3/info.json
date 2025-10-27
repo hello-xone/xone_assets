@@ -3,12 +3,14 @@
     "name": "CUSD Token",
     "website": "https://www.crybabydao.com",
     "description": "CUSD Token",
+    "whitepaper": "https://www.crybabydao.com",
     "explorer": "https://xonescan.com/",
     "type": "ERC20",
     "symbol": "CUSD",
     "decimals": 18,
     "status": "active",
-    "id": "0xf2496F74BB730Bc8f81EC8f564cB6525b4C1bcb3"
+    "id": "0xf2496F74BB730Bc8f81EC8f564cB6525b4C1bcb3",
+    "email": "support@crybabydao.com"
   },
   "Social_Profiles": {
     "twitter": "",
