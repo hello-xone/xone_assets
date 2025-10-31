@@ -1,0 +1,39 @@
+{
+  "Basic_Information": {
+    "name": "CandySwap",
+    "website": "https://x.com/hashtag/Halloween2025?src=hashtag_click",
+    "description": "CandySwap is a sweet trading token. Every exchange is like a Halloween candy drop, with random surprise rewards.",
+    "explorer": "https://xonescan.com/",
+    "type": "ERC20",
+    "symbol": "CNDY",
+    "decimals": 18,
+    "status": "active",
+    "whitepaper": "https://x.com/h_Halloween2024",
+    "id": "0x424241FaF28ef5ECAc9ba1d0c96a2391f8754aCa",
+    "email": "support@halloween.com"
+  },
+  "Social_Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
+}

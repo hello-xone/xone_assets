@@ -1,0 +1,39 @@
+{
+  "Basic_Information": {
+    "name": "Ghostly",
+    "website": "https://x.com/hashtag/Halloween2025?src=hashtag_click",
+    "description": "Ghostly is a lightweight, mystical soul token used to reward active community members. It symbolizes freedom and fluidity, omnipresent like a ghost.",
+    "explorer": "https://xonescan.com/",
+    "type": "ERC20",
+    "symbol": "GSTY",
+    "decimals": 18,
+    "status": "active",
+    "whitepaper": "https://x.com/h_Halloween2024",
+    "id": "0x3f5da664caf8926c9238c41D973bf882A65A2E2C",
+    "email": "support@halloween.com"
+  },
+  "Social_Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
+}

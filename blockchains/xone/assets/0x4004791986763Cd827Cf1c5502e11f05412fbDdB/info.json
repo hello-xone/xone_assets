@@ -1,0 +1,39 @@
+{
+  "Basic_Information": {
+    "name": "BatCoin",
+    "website": "https://x.com/hashtag/Halloween2025?src=hashtag_click",
+    "description": "BatCoin is the token of the Nightcrawler, symbolizing speed and agility. In the world of on-chain transactions, BATX provides you with a discreet and efficient liquidity experience.",
+    "explorer": "https://xonescan.com/",
+    "type": "ERC20",
+    "symbol": "BATX",
+    "decimals": 18,
+    "status": "active",
+    "whitepaper": "https://x.com/h_Halloween2024",
+    "id": "0x4004791986763Cd827Cf1c5502e11f05412fbDdB",
+    "email": "support@halloween.com"
+  },
+  "Social_Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
+}

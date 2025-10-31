@@ -1,0 +1,39 @@
+{
+  "Basic_Information": {
+    "name": "WitchToken",
+    "website": "https://x.com/hashtag/Halloween2025?src=hashtag_click",
+    "description": "WitchToken is minted by the wizarding community, representing creativity and magical energy. Owners will be able to participate in special NFT summons and mysterious events.",
+    "explorer": "https://xonescan.com/",
+    "type": "ERC20",
+    "symbol": "WCH",
+    "decimals": 18,
+    "status": "active",
+    "whitepaper": "https://x.com/h_Halloween2024",
+    "id": "0x3f7c21a0aC06770a45884437b6F45B79CA5d9B21",
+    "email": "support@halloween.com"
+  },
+  "Social_Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
+}
