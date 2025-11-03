@@ -1,0 +1,26 @@
+{
+  "Basic_Information": {
+    "id": "0x1a5C8aD4eAB016aeE5f3B53dA9309715968B7220",
+    "name": "NUTX",
+    "symbol": "NUTX",
+    "decimals": 18,
+    "status": "status",
+    "type": "erc-20",
+    "website": "https://www.xonescan.com/",
+    "description": "https://www.xonescan.com/",
+    "whitepaper": "https://www.xonescan.com/",
+    "explorer": "https://xonescan.com/",
+    "email": "hanguang254@gmail.com"
+  },
+  "Social_Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "discord": "",
+    "github": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
+}
