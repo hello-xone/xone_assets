@@ -16,7 +16,7 @@
     "twitter": "https://x.com/xone_chain",
     "telegram": "https://t.me/hello_xonechain",
     "reddit": "https://www.reddit.com/r/XoneChain/",
-    "discord": "https://discord.com/invite/Du9y2GHV",
+    "discord": "https://discord.gg/UtFzuKNZ",
     "medium": "https://medium.com/@xone_chain",
     "github": "https://github.com/hello-xone/",
     "blog": "https://docs.xone.org/blog",
@@ -26,7 +26,7 @@
   },
   "Price_Data": {
     "coinMarketCap": "",
-    "coinGecko": "https://www.coingecko.com/en/chains/xone",
+    "coinGecko": "https://www.coingecko.com/en/coins/wrapped-xoc",
     "ave": "https://ave.ai/token/0x4eabbabebbb358660ca080e8f2bb09e4a911ab4e-xone?from=Pump"
   }
 }
