@@ -1,0 +1,26 @@
+{
+  "Basic_Information": {
+    "id": "0xf4e42C7D083609be2C8D6585aa026E6595f3F7F6",
+    "name": "South",
+    "symbol": "STH",
+    "decimals": 18,
+    "status": "status",
+    "type": "erc-20",
+    "website": "https://www.xonescan.com/add-token-info?hash=0xf4E42C7d083609be2C8D6585AA026E6595F3f7f6",
+    "description": "测试",
+    "whitepaper": "https://drive.google.com/file/d/16zeTShPhYa5ZXWrIjryM0aytgQe9PXh0/view?usp=drive_link",
+    "explorer": "https://xonescan.com/",
+    "email": "hey.dev911@gmail.com"
+  },
+  "Social_Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "discord": "",
+    "github": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
+}
