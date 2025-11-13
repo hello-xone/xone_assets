@@ -13,6 +13,9 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
 
     steps:
       - name: Checkout code
@@ -57,18 +60,26 @@ jobs:
           ./validate_info_json.sh "${files[@]}"
 
       - name: Summarize results
+        id: summary
         if: always()
         run: |
-          {
-            echo '## Validation summary'
-            if [[ "${{ steps.changed.outputs.has_changes }}" != 'true' ]]; then
-              echo 'No info.json files changed in this PR.'
+          echo '## Validation summary' >> summary.md
+          if [[ "${{ steps.changed.outputs.has_changes }}" != 'true' ]]; then
+            echo 'No info.json files changed in this PR.' >> summary.md
+          else
+            if [[ "${{ job.status }}" == 'success' ]]; then
+              echo 'All changed info.json files passed validation ✅' >> summary.md
             else
-              if [[ "${{ job.status }}" == 'success' ]]; then
-                echo 'All changed info.json files passed validation.'
-              else
-                echo 'Some changed info.json files failed validation.'
-              fi
+              echo 'Some changed info.json files failed validation ❌' >> summary.md
             fi
-          } >> "$GITHUB_STEP_SUMMARY"
+          fi
 
+      - name: Post comment to PR
+        uses: peter-evans/create-or-update-comment@v5
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            **Token-Info Validation Report**
+            ${{ steps.summary.outputs }}   # 注意：可以将 summary.md 内容读入
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
