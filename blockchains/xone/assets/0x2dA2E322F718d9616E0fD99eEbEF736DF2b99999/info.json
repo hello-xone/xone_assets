@@ -1,0 +1,11 @@
+{
+    "name": "CBB",
+    "website": "https://www.crybaby.network/",
+    "description": "CRYBABY TO THE MOON",
+    "explorer": "https://xonescan.com/",
+    "type": "ERC20",
+    "symbol": "CBB",
+    "decimals":18,
+    "status": "active",
+    "id": "0x2dA2E322F718d9616E0fD99eEbEF736DF2b99999"
+} 
