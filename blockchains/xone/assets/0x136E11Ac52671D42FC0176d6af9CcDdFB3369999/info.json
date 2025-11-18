@@ -1,0 +1,39 @@
+{
+  "Basic_Information": {
+    "name": "CBB",
+    "website": "https://www.crybaby.network/",
+    "description": "CRYBABY TO THE MOON",
+    "explorer": "https://xonescan.com/",
+    "type": "ERC20",
+    "symbol": "CBB",
+    "decimals": 18,
+    "status": "active",
+    "whitepaper":"https://www.crybaby.network/#tokenomics",
+    "email":"support@crybaby.network",
+    "id": "0x136E11Ac52671D42FC0176d6af9CcDdFB3369999"
+  },
+  "Social_Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
+}
