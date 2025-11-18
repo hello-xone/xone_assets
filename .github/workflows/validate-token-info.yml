@@ -1,7 +1,7 @@
 name: validate-token-info
 
 on:
-  pull_request:
+  pull_request_target:
     paths:
       - "blockchains/**/info.json"
       - "dapps/**/info.json"
@@ -10,12 +10,13 @@ on:
       - "tools/**/info.json"
       - "validate_info_json.sh"
 
+permissions:
+  pull-requests: write
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-      contents: read
 
     steps:
       - name: Checkout code
@@ -63,23 +64,31 @@ jobs:
         id: summary
         if: always()
         run: |
-          echo '## Validation summary' >> summary.md
+          echo '## Validation summary' > summary.md
           if [[ "${{ steps.changed.outputs.has_changes }}" != 'true' ]]; then
             echo 'No info.json files changed in this PR.' >> summary.md
           else
             if [[ "${{ job.status }}" == 'success' ]]; then
-              echo 'All changed info.json files passed validation ✅' >> summary.md
+              echo '✅ All changed info.json files passed validation.' >> summary.md
             else
-              echo 'Some changed info.json files failed validation ❌' >> summary.md
+              echo '❌ Some changed info.json files failed validation. Please review logs above.' >> summary.md
             fi
           fi
+
+      - name: Read summary content
+        id: read_summary
+        run: |
+          echo "content<<EOF" >> $GITHUB_OUTPUT
+          cat summary.md >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Post comment to PR
         uses: peter-evans/create-or-update-comment@v5
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            **Token-Info Validation Report**
-            ${{ steps.summary.outputs }}   # 注意：可以将 summary.md 内容读入
+            🧩 **Token Info Validation Report**
+            ---
+            ${{ steps.read_summary.outputs.content }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
