@@ -1,0 +1,37 @@
+{
+  "Basic_Information": {
+    "name": "USDX",
+    "website": "",
+    "description": "USDX",
+    "explorer": "",
+    "type": "ERC20",
+    "symbol": "USDX",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x1470855ee884fa849cda43f4c1ef031dfd8ecb72"
+  },
+  "Social_Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
+}
