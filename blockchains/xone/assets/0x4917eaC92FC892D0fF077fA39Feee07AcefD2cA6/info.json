@@ -1,0 +1,37 @@
+{
+  "Basic_Information": {
+    "name": "B3",
+    "website": "",
+    "description": "B3",
+    "explorer": "https://www.xonescan.com/token/0x4917eaC92FC892D0fF077fA39Feee07AcefD2cA6",
+    "type": "ERC20",
+    "symbol": "B3",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x4917eaC92FC892D0fF077fA39Feee07AcefD2cA6"
+  },
+  "Social_Profiles": {
+    "twitter": "",
+    "telegram": "",
+    "reddit": "",
+    "discord": "",
+    "slack": "",
+    "instagram": "",
+    "wechat": "",
+    "facebook": "",
+    "medium": "",
+    "github": "",
+    "blog": "",
+    "bitcointalk": "",
+    "youtube": "",
+    "tiktok": "",
+    "forum": "",
+    "linkedin": "",
+    "opensea": ""
+  },
+  "Price_Data": {
+    "coinMarketCap": "",
+    "coinGecko": "",
+    "ave": ""
+  }
+}
